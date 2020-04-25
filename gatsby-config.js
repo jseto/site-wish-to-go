@@ -4,7 +4,20 @@ module.exports = {
     description: `Improve visitor engagement in your travel blog`,
 		author: `@wish_to_go`,
 		siteUrl: `https://wish-to-go.com`,
-    lang: 'en'
+    lang: 'en',
+    navbar: {
+      logo: {
+        file: '/images/logo-static.svg',         // should be in static folder
+        width: '88px',
+        alt: 'Wish To Go Logo'
+      },
+      className: 'navbar-style',
+      menuItems: [
+        { content: 'Home', href: '/' },
+        { content: 'Page 2', href: '/page-2' },
+        { content: 'Gatsby', href: 'https://www.gatsbyjs.org/' },
+      ]
+    },
   },
   plugins: [
 		`gatsby-plugin-ts`,
