@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Site Title`,
-    description: `Site description`,
-    author: `@my_author`,
-    siteUrl: 'https://mysite.netlify.app',
+    title: `Wish to go`,
+    description: `Improve visitor engagement in your travel blog`,
+		author: `@wish_to_go`,
+		siteUrl: `https://wish-to-go.com`,
     lang: 'en'
   },
   plugins: [
@@ -40,6 +40,13 @@ module.exports = {
 	          },
 	        },
 					'gatsby-remark-copy-linked-files',
+					{
+						resolve:'gatsby-remark-prismjs',        // cSpell: disable-line
+						options: {
+							classPrefix: 'language-'
+						}
+					},
+					'gatsby-remark-copy-linked-files',
 	      ],
       }
     },
@@ -62,16 +69,16 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          'UA-000000000-1', // Google Analytics / GA
-					'AW-000000000', // Google Ads / Adwords / AW                  cSpell: disable-line
-					'G-XX0XXX0XX0',
-          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)                  cSpell: disable-line
+          'UA-152680555-1', // Google Analytics / GA
+					'AW-661213510', // Google Ads / Adwords / AW            // cSpell: disable-line
+					'G-DV6NWG4TE7',
+          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)      // cSpell: disable-line
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         gtagConfig: {
           // optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: false,                  // cSpell: disable-line
+          anonymize_ip: false,                                              // cSpell: disable-line
           // cookie_expires: 0,
         },
         // This object is used for configuration specific to this plugin
@@ -95,7 +102,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/wish-to-go-icon.png`, // This path is relative to the root of the site.
       },
     },
 		{
