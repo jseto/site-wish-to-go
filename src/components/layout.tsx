@@ -5,6 +5,7 @@ import "../styles/style.scss"
 import CookieConsent from 'react-cookie-consent'
 import { CategoryEntries } from "./category-entries"
 import Navbar from "./navbar"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,7 +24,7 @@ const Layout = ({ children }) => {
         CategoryEntries
       }}
     >
-      <Navbar />
+      <Navbar/>
       <section className="section">
         <div className="container">
           <div className="content">
@@ -36,6 +37,8 @@ const Layout = ({ children }) => {
       >
         We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
       </CookieConsent>
+
+      <Footer />
     </MDXProvider>
   )
 }
