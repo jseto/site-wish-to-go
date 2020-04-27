@@ -1,10 +1,3 @@
----
-pageTemplate: index
-blockName: readersBenefit
-order: 2
-className: readers-benefit
----
-
 ## Bookmark Destinations from your Travel Posts
 
 <div class="columns">

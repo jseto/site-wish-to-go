@@ -11,7 +11,7 @@ module.exports = {
         width: '88px',
         alt: 'Wish To Go Logo'
       },
-      className: 'navbar-style',
+      className: 'is-dark',
       menuItems: [
         { content: 'Home', href: '/' },
       ]
@@ -22,7 +22,7 @@ module.exports = {
         width: '12em',
         alt: 'Wish To Go Logo'
       },
-      className: 'footer-style',
+      className: 'has-background-dark',
       firstColumnItems: [
         { content: 'Home', href: '/' },
       ],
