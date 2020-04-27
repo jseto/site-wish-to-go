@@ -14,14 +14,12 @@ module.exports = {
       className: 'navbar-style',
       menuItems: [
         { content: 'Home', href: '/' },
-        { content: 'Page 2', href: '/page-2' },
-        { content: 'Gatsby', href: 'https://www.gatsbyjs.org/' },
       ]
     },
     footer: {
       logo: {
         file: '/images/logo.svg',         // should be in static folder
-        width: '5em',
+        width: '12em',
         alt: 'Wish To Go Logo'
       },
       className: 'footer-style',
@@ -30,13 +28,13 @@ module.exports = {
       ],
       secondColumnItems: [
         { content: 'Privacy Policy', href: '/legal/privacy-policy/' },
-        { content: 'Terms and Conditions', href: '/legal/terms-conditions/' },
+        { content: 'Terms and Conditions', href: '/legal/terms/' },
       ],
       social: {
-        facebook: 'fakeSocialURL',
-        twitter: 'fakeSocialURL',
-        instagram: 'fakeSocialURL',
-        email: 'fakeSocialURL'
+        facebook: 'https://www.facebook.com/wishtogotravel',
+        twitter: 'https://twitter.com/wish_to_go',
+        instagram: 'https://instagram.com/wish_to_go',
+        email: ''
       },
       madeWithLove: 'Made width ❤️ in Barcelona and Bangkok'
     }

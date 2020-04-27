@@ -701,6 +701,8 @@ export type FileFieldsEnum =
   'childMdx___frontmatter___description' |
   'childMdx___frontmatter___category' |
   'childMdx___frontmatter___pageTemplate' |
+  'childMdx___frontmatter___date' |
+  'childMdx___frontmatter___tags' |
   'childMdx___body' |
   'childMdx___excerpt' |
   'childMdx___headings' |
@@ -1448,6 +1450,8 @@ export type MdxFieldsEnum =
   'frontmatter___description' |
   'frontmatter___category' |
   'frontmatter___pageTemplate' |
+  'frontmatter___date' |
+  'frontmatter___tags' |
   'body' |
   'excerpt' |
   'headings' |
@@ -1582,6 +1586,16 @@ export type MdxFrontmatter = {
   description?: Maybe<Scalars['String']>;
   category?: Maybe<Scalars['String']>;
   pageTemplate?: Maybe<Scalars['String']>;
+  date?: Maybe<Scalars['Date']>;
+  tags?: Maybe<Array<Maybe<Scalars['String']>>>;
+};
+
+
+export type MdxFrontmatterDateArgs = {
+  formatString?: Maybe<Scalars['String']>;
+  fromNow?: Maybe<Scalars['Boolean']>;
+  difference?: Maybe<Scalars['String']>;
+  locale?: Maybe<Scalars['String']>;
 };
 
 export type MdxFrontmatterFilterInput = {
@@ -1593,6 +1607,8 @@ export type MdxFrontmatterFilterInput = {
   description?: Maybe<StringQueryOperatorInput>;
   category?: Maybe<StringQueryOperatorInput>;
   pageTemplate?: Maybe<StringQueryOperatorInput>;
+  date?: Maybe<DateQueryOperatorInput>;
+  tags?: Maybe<StringQueryOperatorInput>;
 };
 
 export type MdxGroupConnection = {
