@@ -700,6 +700,7 @@ export type FileFieldsEnum =
   'childMdx___frontmatter___className' |
   'childMdx___frontmatter___description' |
   'childMdx___frontmatter___category' |
+  'childMdx___frontmatter___pageTemplate' |
   'childMdx___body' |
   'childMdx___excerpt' |
   'childMdx___headings' |
@@ -1446,6 +1447,7 @@ export type MdxFieldsEnum =
   'frontmatter___className' |
   'frontmatter___description' |
   'frontmatter___category' |
+  'frontmatter___pageTemplate' |
   'body' |
   'excerpt' |
   'headings' |
@@ -1579,6 +1581,7 @@ export type MdxFrontmatter = {
   className?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['String']>;
   category?: Maybe<Scalars['String']>;
+  pageTemplate?: Maybe<Scalars['String']>;
 };
 
 export type MdxFrontmatterFilterInput = {
@@ -1589,6 +1592,7 @@ export type MdxFrontmatterFilterInput = {
   className?: Maybe<StringQueryOperatorInput>;
   description?: Maybe<StringQueryOperatorInput>;
   category?: Maybe<StringQueryOperatorInput>;
+  pageTemplate?: Maybe<StringQueryOperatorInput>;
 };
 
 export type MdxGroupConnection = {
@@ -3025,6 +3029,14 @@ export type SiteFooterQuery = { site?: Maybe<{ siteMetadata?: Maybe<{ footer?: M
         Pick<SiteSiteMetadataFooter, 'className' | 'madeWithLove'>
         & { logo?: Maybe<Pick<SiteSiteMetadataFooterLogo, 'file' | 'width' | 'alt'>>, firstColumnItems?: Maybe<Array<Maybe<Pick<SiteSiteMetadataFooterFirstColumnItems, 'content' | 'href'>>>>, secondColumnItems?: Maybe<Array<Maybe<Pick<SiteSiteMetadataFooterSecondColumnItems, 'content' | 'href'>>>>, social?: Maybe<Pick<SiteSiteMetadataFooterSocial, 'facebook' | 'twitter' | 'instagram' | 'email'>> }
       )> }> }> };
+
+export type ImportMarkdownQueryVariables = {};
+
+
+export type ImportMarkdownQuery = { allMdx: { nodes: Array<(
+      Pick<Mdx, 'body'>
+      & { fields?: Maybe<Pick<MdxFields, 'slug'>> }
+    )> } };
 
 export type SiteTitleQueryQueryVariables = {};
 
