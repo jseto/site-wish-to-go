@@ -25,3 +25,5 @@ Share your personal trip itineraries with your readers. Let them bookmark destin
 ## Your Readers will Love
 
 ![Wish to go. The Travel Blog Wordpress plugin](../images/logo.svg)
+
+<ImportMarkdown slug="readers-benefit"/>

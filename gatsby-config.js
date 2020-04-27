@@ -7,7 +7,7 @@ module.exports = {
     lang: 'en',
     navbar: {
       logo: {
-        file: '/images/logo-static.svg',         // should be in static folder
+        file: '/images/logo.svg',         // should be in static folder
         width: '88px',
         alt: 'Wish To Go Logo'
       },
@@ -20,7 +20,7 @@ module.exports = {
     },
     footer: {
       logo: {
-        file: '/images/logo-static.svg',         // should be in static folder
+        file: '/images/logo.svg',         // should be in static folder
         width: '5em',
         alt: 'Wish To Go Logo'
       },
