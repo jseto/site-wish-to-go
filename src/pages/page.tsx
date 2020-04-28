@@ -10,18 +10,39 @@ interface PageProps {
   data: PageQuery
 }
 
-const Page = ({data: {mdx}}: PageProps) => {
-  return(
-    <Layout>
-      <SEO 
-        title={ mdx.frontmatter.title } 
-        description={ mdx.frontmatter.description || mdx.excerpt }
-      />
-      <MarkdownBlock className={ mdx.frontmatter.className }>
-        { mdx.body }
-      </MarkdownBlock>
-    </Layout>
-  )
+class Page extends React.Component<PageProps> {
+
+  componentDidMount() {
+    const { data: { mdx } } = this.props
+
+    if ( mdx.frontmatter.script ) {
+      const bodyElement = document.getElementsByTagName( 'body' )[0];
+      const scriptElement = document.createElement( 'script' )
+
+      scriptElement.type = 'text/javascript'
+      scriptElement.src = mdx.frontmatter.script
+
+      bodyElement.append( scriptElement )
+    }
+  }
+
+  render() {
+    const { data: { mdx } } = this.props
+
+    return(
+      <>
+        <Layout>
+          <SEO 
+            title={ mdx.frontmatter.title } 
+            description={ mdx.frontmatter.description || mdx.excerpt }
+          />
+          <MarkdownBlock className={ mdx.frontmatter.className }>
+            { mdx.body }
+          </MarkdownBlock>
+        </Layout>
+      </>
+    )
+  }
 }
 
 export default Page
@@ -36,6 +57,7 @@ query Page( $id: String ) {
 			title
       description
       className
+      script
     }
   }
 }
