@@ -1,0 +1,39 @@
+@import "base";
+
+.content {
+	
+	.page {
+		@extend .container;
+		@extend .section;
+
+		h1 {
+			background-color: $main-blue;
+			color: $white;
+			margin: -2em -100% 2em -100%;
+			padding: 3em 100% 2em 100%;
+		}
+
+		blockquote {
+			h1, h2 {
+				margin: unset;
+				padding: unset;
+				color: unset;
+				background-color: unset;
+			}
+
+			h1 {
+				font-size: 2.5rem;
+			}
+
+			h2 {
+				font-size: 2rem;
+			}
+
+			// blockquote {
+				border-left: 0.5em solid $light-blue;
+				font-style: oblique;
+				font-weight: 200;
+			// }
+		}
+	}
+}

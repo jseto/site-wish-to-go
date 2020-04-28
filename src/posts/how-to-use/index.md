@@ -1,10 +1,11 @@
 ---
-className: how-to-use
+className: page
+script: 'https://wish-to-go.com/wish-to-go.main.js'
 ---
 
 # How To Use Wish To Go
 
-> For an installation guide of the [Travel Planner Wordpress plugin, click here](https://wordpress.org/plugins/wish-to-go/)
+> Click the link for an installation guide of the [**Wordpress plugin** for the Travel Planner](https://wordpress.org/plugins/wish-to-go/)
 
 Installing **Wish To Go** in your blog is really easy. We provide several widgets in the form of an _HTML_ tag. The [WishWidget](#the-wishwidget-tag) shows a heart next to posts destinations where the reader can click to add them to the _Travel Bucket List_. The [ShareTripWidget](##the-sharetripwidget-tag) is used to share the travel blogger trips with their readers. 
 
@@ -114,9 +115,8 @@ The following code shows just a few of the multiple places where you can insert 
 The code above will produce:
 
 > <h1>My Post about Thailand <WishWidget country="TH"></WishWidget></h1>
-> <p>The capital of the country is
-> 	<strong>
-> 		Bangkok
+> <p>The capital of the country is 
+> 	<strong> Bangkok
 > 		<WishWidget
 > 			country="TH"
 > 			city="Bangkok">

@@ -1,0 +1,30 @@
+@import "~prismjs/themes/prism-okaidia.css";														// cSpell: disable-line
+@import "~prismjs/plugins/line-numbers/prism-line-numbers.css";					// cSpell: disable-line
+
+.token.tag,
+.token.content,
+.token.number {
+  display: inline;
+  padding: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  border-radius: inherit;
+  font-weight: inherit;
+  white-space: inherit;
+  background: inherit;
+	margin: inherit;
+}
+
+.gatsby-highlight-code-line {
+	background-color: #4a595f;
+	border-radius: 0.3em;
+	line-height: normal;
+	display: block ;
+	padding: 0.3em;
+	padding-left: 0;
+	// border-style: solid;
+	// border-color: red;
+	// border-width: 2px;
+}
