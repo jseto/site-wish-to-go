@@ -22,10 +22,10 @@ class Page extends React.Component<PageProps> {
       scriptElement.type = 'text/javascript'
       scriptElement.src = mdx.frontmatter.script
 
-      // if ( window ) {
-      //   window.onload = ()=> bodyElement.append( scriptElement )
-      // }
-      bodyElement.append( scriptElement )
+      if ( window ) {
+        window.onload = ()=> bodyElement.append( scriptElement )
+      }
+      // bodyElement.append( scriptElement )
     }
   }
 
