@@ -14,6 +14,11 @@ module.exports = {
       className: 'is-dark',
       menuItems: [
         { content: 'Home', href: '/' },
+        { content: 'How to use', href: '/how-to-use/' },
+        { content: 'Plans', href: '/plans/' },
+        { content: 'Blog Demo', href: '/blog/' },
+        { content: 'Travel Planner', href: '/travel-planner/' },
+        { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ]
     },
     footer: {
@@ -25,6 +30,11 @@ module.exports = {
       className: 'has-background-dark',
       firstColumnItems: [
         { content: 'Home', href: '/' },
+        { content: 'How to use', href: '/how-to-use/' },
+        { content: 'Plans', href: '/plans/' },
+        { content: 'Blog Demo', href: '/blog/' },
+        { content: 'Travel Planner', href: '/travel-planner/' },
+        { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ],
       secondColumnItems: [
         { content: 'Privacy Policy', href: '/legal/privacy-policy/' },
@@ -141,9 +151,8 @@ module.exports = {
 		{
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-				develop: false,
-        whitelist: [],
-        purgeOnly: ['/style.scss'], // applies purging only on the bulma css file                  cSpell: disable-line
+				develop: true,
+        whitelist: [ 'is-dark', 'has-background-dark' ],
       },
     }, // must be after other CSS plugins
     // this (optional) plugin enables Progressive Web App + Offline functionality

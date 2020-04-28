@@ -8,8 +8,6 @@ description: Increase your Travel Blog Traffic. Share your Itineraries as a Free
 category: index
 ---
 
-import "../styles/index.scss"
-
 <ImportMarkdown slug="index-header"/>
 
 <ImportMarkdown slug="readers-benefit"/>
