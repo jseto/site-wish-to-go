@@ -2492,6 +2492,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___develop' |
   'pluginCreator___pluginOptions___whitelist' |
+  'pluginCreator___pluginOptions___content' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
   'pluginCreator___browserAPIs' |
@@ -2693,6 +2694,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___icon' |
   'pluginOptions___develop' |
   'pluginOptions___whitelist' |
+  'pluginOptions___content' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
   'browserAPIs' |
@@ -2820,6 +2822,7 @@ export type SitePluginPluginOptions = {
   icon?: Maybe<Scalars['String']>;
   develop?: Maybe<Scalars['Boolean']>;
   whitelist?: Maybe<Array<Maybe<Scalars['String']>>>;
+  content?: Maybe<Array<Maybe<Scalars['String']>>>;
   pathCheck?: Maybe<Scalars['Boolean']>;
 };
 
@@ -2838,6 +2841,7 @@ export type SitePluginPluginOptionsFilterInput = {
   icon?: Maybe<StringQueryOperatorInput>;
   develop?: Maybe<BooleanQueryOperatorInput>;
   whitelist?: Maybe<StringQueryOperatorInput>;
+  content?: Maybe<StringQueryOperatorInput>;
   pathCheck?: Maybe<BooleanQueryOperatorInput>;
 };
 
