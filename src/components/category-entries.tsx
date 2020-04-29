@@ -21,7 +21,6 @@ export const CategoryEntries = ( props: CategoryEntriesProps ) => (
 							description
 							className
 							order
-							blockName
 							category
 						}
 						id

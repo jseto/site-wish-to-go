@@ -76,4 +76,8 @@ query Page( $id: String ) {
 // token
 // tag
 // number 
-// gatsby-highlight-code-line
+// language-text
+// page
+// index
+// index-header
+// readers-benefit

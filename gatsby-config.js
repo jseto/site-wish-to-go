@@ -86,7 +86,8 @@ module.exports = {
 					{
 						resolve:'gatsby-remark-prismjs',        // cSpell: disable-line
 						options: {
-							classPrefix: 'language-'
+              classPrefix: 'language-',
+              showLineNumbers: false
 						}
 					},
 	      ],
@@ -150,9 +151,9 @@ module.exports = {
 		{
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-				develop: true,
+				develop: false,
         whitelist: [ 'is-dark', 'has-background-dark' ],
-        content: [require('path').join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx,md,mdx}')],
+        // content: [require('path').join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx,md,mdx}')],
         purgeOnly: ['/style.scss']
       },
     }, // must be after other CSS plugins

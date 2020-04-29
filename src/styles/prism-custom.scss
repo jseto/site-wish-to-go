@@ -1,5 +1,5 @@
 @import "~prismjs/themes/prism-okaidia.css";														// cSpell: disable-line
-@import "~prismjs/plugins/line-numbers/prism-line-numbers.css";					// cSpell: disable-line
+// @import "~prismjs/plugins/line-numbers/prism-line-numbers.css";					// cSpell: disable-line
 
 .token.tag,
 .token.content,
@@ -17,19 +17,19 @@
 	margin: inherit;
 }
 
-.gatsby-highlight-code-line {
-	background-color: #4a595f;
-	border-radius: 0.3em;
-	line-height: normal;
-	display: block ;
-	padding: 0.3em;
-	padding-left: 0;
-	// border-style: solid;
-	// border-color: red;
-	// border-width: 2px;
-}
+// .gatsby-highlight-code-line {
+// 	background-color: #4a595f;
+// 	border-radius: 0.3em;
+// 	line-height: normal;
+// 	display: block ;
+// 	padding: 0.3em;
+// 	padding-left: 0;
+// 	// border-style: solid;
+// 	// border-color: red;
+// 	// border-width: 2px;
+// }
 
-:not(pre) > code[class*="language-"] {
-	padding: 0.1em 0.3em 0.2em 0.3em!important;
+code.language-text {
+	padding: 0.1em 0.3em 0.2em 0.3em !important;
   border-radius: 0.2em !important;
 }

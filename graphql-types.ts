@@ -695,7 +695,6 @@ export type FileFieldsEnum =
   'childMdx___fileAbsolutePath' |
   'childMdx___frontmatter___title' |
   'childMdx___frontmatter___page' |
-  'childMdx___frontmatter___blockName' |
   'childMdx___frontmatter___order' |
   'childMdx___frontmatter___className' |
   'childMdx___frontmatter___description' |
@@ -1444,7 +1443,6 @@ export type MdxFieldsEnum =
   'fileAbsolutePath' |
   'frontmatter___title' |
   'frontmatter___page' |
-  'frontmatter___blockName' |
   'frontmatter___order' |
   'frontmatter___className' |
   'frontmatter___description' |
@@ -1580,7 +1578,6 @@ export type MdxFilterInput = {
 export type MdxFrontmatter = {
   title: Scalars['String'];
   page?: Maybe<Scalars['String']>;
-  blockName?: Maybe<Scalars['String']>;
   order?: Maybe<Scalars['Int']>;
   className?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['String']>;
@@ -1601,7 +1598,6 @@ export type MdxFrontmatterDateArgs = {
 export type MdxFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>;
   page?: Maybe<StringQueryOperatorInput>;
-  blockName?: Maybe<StringQueryOperatorInput>;
   order?: Maybe<IntQueryOperatorInput>;
   className?: Maybe<StringQueryOperatorInput>;
   description?: Maybe<StringQueryOperatorInput>;
@@ -1849,8 +1845,6 @@ export type QueryAllSitePageArgs = {
 export type QuerySiteArgs = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<IntQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -1962,8 +1956,6 @@ export type QueryAllSitePluginArgs = {
 export type Site = Node & {
   buildTime?: Maybe<Scalars['Date']>;
   siteMetadata?: Maybe<SiteSiteMetadata>;
-  port?: Maybe<Scalars['Int']>;
-  host?: Maybe<Scalars['String']>;
   polyfill?: Maybe<Scalars['Boolean']>;
   pathPrefix?: Maybe<Scalars['String']>;
   id: Scalars['ID'];
@@ -2190,8 +2182,6 @@ export type SiteFieldsEnum =
   'siteMetadata___footer___social___instagram' |
   'siteMetadata___footer___social___email' |
   'siteMetadata___footer___madeWithLove' |
-  'port' |
-  'host' |
   'polyfill' |
   'pathPrefix' |
   'id' |
@@ -2284,8 +2274,6 @@ export type SiteFieldsEnum =
 export type SiteFilterInput = {
   buildTime?: Maybe<DateQueryOperatorInput>;
   siteMetadata?: Maybe<SiteSiteMetadataFilterInput>;
-  port?: Maybe<IntQueryOperatorInput>;
-  host?: Maybe<StringQueryOperatorInput>;
   polyfill?: Maybe<BooleanQueryOperatorInput>;
   pathPrefix?: Maybe<StringQueryOperatorInput>;
   id?: Maybe<StringQueryOperatorInput>;
@@ -2504,7 +2492,6 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___icon' |
   'pluginCreator___pluginOptions___develop' |
   'pluginCreator___pluginOptions___whitelist' |
-  'pluginCreator___pluginOptions___content' |
   'pluginCreator___pluginOptions___purgeOnly' |
   'pluginCreator___pluginOptions___pathCheck' |
   'pluginCreator___nodeAPIs' |
@@ -2707,7 +2694,6 @@ export type SitePluginFieldsEnum =
   'pluginOptions___icon' |
   'pluginOptions___develop' |
   'pluginOptions___whitelist' |
-  'pluginOptions___content' |
   'pluginOptions___purgeOnly' |
   'pluginOptions___pathCheck' |
   'nodeAPIs' |
@@ -2836,7 +2822,6 @@ export type SitePluginPluginOptions = {
   icon?: Maybe<Scalars['String']>;
   develop?: Maybe<Scalars['Boolean']>;
   whitelist?: Maybe<Array<Maybe<Scalars['String']>>>;
-  content?: Maybe<Array<Maybe<Scalars['String']>>>;
   purgeOnly?: Maybe<Array<Maybe<Scalars['String']>>>;
   pathCheck?: Maybe<Scalars['Boolean']>;
 };
@@ -2856,7 +2841,6 @@ export type SitePluginPluginOptionsFilterInput = {
   icon?: Maybe<StringQueryOperatorInput>;
   develop?: Maybe<BooleanQueryOperatorInput>;
   whitelist?: Maybe<StringQueryOperatorInput>;
-  content?: Maybe<StringQueryOperatorInput>;
   purgeOnly?: Maybe<StringQueryOperatorInput>;
   pathCheck?: Maybe<BooleanQueryOperatorInput>;
 };
@@ -3035,7 +3019,7 @@ export type CategoryEntriesQueryVariables = {};
 
 export type CategoryEntriesQuery = { allMdx: { nodes: Array<(
       Pick<Mdx, 'id' | 'excerpt'>
-      & { frontmatter?: Maybe<Pick<MdxFrontmatter, 'title' | 'page' | 'description' | 'className' | 'order' | 'blockName' | 'category'>>, fields?: Maybe<Pick<MdxFields, 'slug' | 'featuredImage'>> }
+      & { frontmatter?: Maybe<Pick<MdxFrontmatter, 'title' | 'page' | 'description' | 'className' | 'order' | 'category'>>, fields?: Maybe<Pick<MdxFields, 'slug' | 'featuredImage'>> }
     )> } };
 
 export type EntryCardQueryVariables = {};
