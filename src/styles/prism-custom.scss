@@ -28,3 +28,8 @@
 	// border-color: red;
 	// border-width: 2px;
 }
+
+:not(pre) > code[class*="language-"] {
+	padding: 0.1em 0.3em 0.2em 0.3em!important;
+  border-radius: 0.2em !important;
+}

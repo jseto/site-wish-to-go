@@ -32,7 +32,7 @@ In order the widgets to work, you should load the JavaScript code in your page.
 The JavaScript code is loaded by inserting this 
 
 ```html
-	<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
+<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
 ```
 
 tag at the bottom of your **HTML** document but still inside the `<body>` tag.

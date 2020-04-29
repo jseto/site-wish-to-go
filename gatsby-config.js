@@ -150,9 +150,10 @@ module.exports = {
 		{
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
-				develop: false,
+				develop: true,
         whitelist: [ 'is-dark', 'has-background-dark' ],
-        content: [require('path').join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx,md,mdx}')]
+        content: [require('path').join(process.cwd(), 'src/**/!(*.d).{ts,js,jsx,tsx,md,mdx}')],
+        purgeOnly: ['/style.scss']
       },
     }, // must be after other CSS plugins
     // this (optional) plugin enables Progressive Web App + Offline functionality

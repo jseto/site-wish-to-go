@@ -70,3 +70,10 @@ query Page( $id: String ) {
 // h3
 // h4
 // h5
+// blockquote
+// pre
+// code
+// token
+// tag
+// number 
+// gatsby-highlight-code-line
