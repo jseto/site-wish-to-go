@@ -82,7 +82,7 @@ module.exports = {
               maxWidth: 2048,
               linkImagesToOriginal: false,
               withWebp: true,
-              tracedSVG: true
+              tracedSVG: false
 	          },
 	        },
 					'gatsby-remark-copy-linked-files',

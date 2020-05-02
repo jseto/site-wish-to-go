@@ -44,7 +44,7 @@ Although Barcelona is characterized by the many modernist buildings that Antoni 
 <WishWidget	country="ES" city="Barcelona"	activity="Museu Dalí" label="true"></WishWidget>
 
 The Dalí Theatre-Museum most important surrealistic masterpiece in the world. Build on the Municipal Theatre remains.
-<!-- 
+
 ## More of Spain
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/> -->
+<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>
