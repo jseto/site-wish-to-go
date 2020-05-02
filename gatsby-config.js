@@ -16,7 +16,7 @@ module.exports = {
         { content: 'Home', href: '/' },
         { content: 'How to use', href: '/how-to-use/' },
         { content: 'Plans', href: '/plans/' },
-        { content: 'Blog Demo', href: '/blog/' },
+        { content: 'Blog Demo', href: '/travel/' },
         { content: 'Travel Planner', href: '/travel-planner/' },
         { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ]
@@ -32,7 +32,7 @@ module.exports = {
         { content: 'Home', href: '/' },
         { content: 'How to use', href: '/how-to-use/' },
         { content: 'Plans', href: '/plans/' },
-        { content: 'Blog Demo', href: '/blog/' },
+        { content: 'Blog Demo', href: '/travel/' },
         { content: 'Travel Planner', href: '/travel-planner/' },
         { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ],
@@ -79,7 +79,10 @@ module.exports = {
 	            // It's important to specify the maxWidth (in pixels) of
 	            // the content container as this plugin uses this as the
 	            // base for generating different widths of each image.
-	            maxWidth: 2048,
+              maxWidth: 2048,
+              linkImagesToOriginal: false,
+              withWebp: true,
+              tracedSVG: true
 	          },
 	        },
 					'gatsby-remark-copy-linked-files',

@@ -7,6 +7,8 @@ import { EntryCard } from '../components/entry-card';
 interface CategoryEntriesProps {
 	className?: string;
 	category: string;
+	readMoreLabel?: string;
+	tags: string; // comma separated
 }
 
 export const CategoryEntries = ( props: CategoryEntriesProps ) => (
@@ -17,11 +19,11 @@ export const CategoryEntries = ( props: CategoryEntriesProps ) => (
 					nodes {
 						frontmatter {
 							title
-							page
 							description
 							className
 							order
 							category
+							tags
 						}
 						id
 						excerpt
@@ -35,7 +37,12 @@ export const CategoryEntries = ( props: CategoryEntriesProps ) => (
   	`}
 		render={
 			( data: CategoryEntriesQuery ) => {
-				const nodes = data.allMdx.nodes.filter( node => node.frontmatter.category === props.category )
+				
+				const nodes = data.allMdx.nodes.filter( node => 
+					node.frontmatter.category === props.category 
+								&& hasTags( node.frontmatter.tags, props.tags )
+				)
+
 				return (
 					<>
 						<EntryGrid
@@ -47,9 +54,10 @@ export const CategoryEntries = ( props: CategoryEntriesProps ) => (
 								item => (
 									<EntryCard
 										heading={ item.frontmatter.title }
-										excerpt={ item.excerpt }
+										excerpt={ item.frontmatter.description || item.excerpt }
 										imagePath={ item.fields.featuredImage }
 										slug={ item.fields.slug }
+										readMoreLabel={ props.readMoreLabel }
 									/>
 								)
 							}
@@ -61,3 +69,8 @@ export const CategoryEntries = ( props: CategoryEntriesProps ) => (
 		}
 	/>
 );
+
+function hasTags( tags: string[], targetTags: string | string[] ) {
+	if ( !targetTags ) return true;
+	return tags.filter( tag => targetTags.includes( tag ) ).length
+}

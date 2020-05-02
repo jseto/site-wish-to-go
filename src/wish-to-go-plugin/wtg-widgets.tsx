@@ -1,4 +1,5 @@
 import * as React from 'react'
+import './wtg-widget-style.scss'
 
 export const WishWidget = ( props ) => (
 	<span 
@@ -19,7 +20,9 @@ export const TripPlannerWidget = ( props ) => (
 export const WishCounterWidget = ( props ) => (
 	<span 
 		dangerouslySetInnerHTML={{ __html: `
-			<WishCounterWidget ${ propsToString( props ) }/>
+			<div class="stick-to-bottom">
+				<WishCounterWidget ${ propsToString( props ) }/>
+			</div>
 		`}}
 	/>
 )
@@ -33,7 +36,12 @@ export const ShareTripWidget = ( props ) => (
 )
 
 function propsToString( props: {} ) {
+	props['userId'] && Object.keys( props ).forEach( prop => console.log( prop, props[prop]))
 	return Object.keys( props ).map( 
-		item => `${ item }="${ props[ item ] }"`
+		item => `${ camelToSnakeCase( item ) }="${ props[ item ] }"`
 	).join(' ')
+}
+
+function camelToSnakeCase( str: string, snakeChar: string = '-' ) {
+	return str[0].toLowerCase() + str.slice(1).replace(/([A-Z])/g, g => snakeChar + g[0].toLowerCase() );
 }

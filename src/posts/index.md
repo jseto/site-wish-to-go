@@ -1,5 +1,4 @@
 ---
-page: index
 order: 1
 className: index
 title: + Destinations Bucket List for Travel Blog Plugin to get more Readers 

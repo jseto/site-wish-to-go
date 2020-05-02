@@ -1,7 +1,8 @@
 ---
 className: page
-script: 'https://wish-to-go.com/wish-to-go.main.js'
 ---
+
+<StartWishToGo noCounter={true}/>
 
 # How To Use Wish To Go
 

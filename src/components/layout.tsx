@@ -8,6 +8,7 @@ import { ImportMarkdown } from "./import-markdown"
 import { Navbar } from "./navbar"
 import { Footer } from "./footer"
 import { WishWidget, ShareTripWidget, TripPlannerWidget, WishCounterWidget } from "../wish-to-go-plugin/wtg-widgets"
+import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 
 export const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,10 +25,10 @@ export const Layout = ({ children }) => {
     <MDXProvider
       components={{
         CategoryEntries, ImportMarkdown, 
-        WishWidget, TripPlannerWidget, WishCounterWidget, ShareTripWidget
+        WishWidget, TripPlannerWidget, WishCounterWidget, ShareTripWidget, StartWishToGo
       }}
     >
-      
+
       <Navbar/>
       
       <main>
