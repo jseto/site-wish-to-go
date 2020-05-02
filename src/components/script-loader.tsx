@@ -8,23 +8,23 @@ export interface ScriptLoaderProps {
 
 export class ScriptLoader extends React.Component< ScriptLoaderProps > {
 	componentDidMount() {
-    // const { script, initScript } = this.props
+    const { script, initScript } = this.props
 
-		// const id = "id-" + script
-		// if ( document.getElementById( id ) ) {
-		// 	if ( initScript ) initScript()
-		// 	return
-		// }
-		// const bodyElement = document.getElementsByTagName( 'body' )[0];
-		// const scriptElement = document.createElement( 'script' )
+		const id = "id-" + script
+		if ( document.getElementById( id ) ) {
+			if ( initScript ) initScript()
+			return
+		}
+		const bodyElement = document.getElementsByTagName( 'body' )[0];
+		const scriptElement = document.createElement( 'script' )
 
-		// scriptElement.type = 'text/javascript'
-		// scriptElement.src = script
-		// scriptElement.id = id;
+		scriptElement.type = 'text/javascript'
+		scriptElement.src = script
+		scriptElement.id = id;
 
-		// if ( window ) {
-		//   window.onload = ()=> bodyElement.append( scriptElement )
-		// }
+		if ( window ) {
+		  window.onload = ()=> bodyElement.append( scriptElement )
+		}
 		// bodyElement.append( scriptElement )
 	}
 
