@@ -22,10 +22,10 @@ export class ScriptLoader extends React.Component< ScriptLoaderProps > {
 		scriptElement.src = script
 		scriptElement.id = id;
 
-		// if ( window ) {
-		//   window.onload = ()=> bodyElement.append( scriptElement )
-		// }
-		bodyElement.append( scriptElement )
+		if ( window ) {
+		  window.onload = ()=> bodyElement.append( scriptElement )
+		}
+		// bodyElement.append( scriptElement )
 	}
 
 	render() {
