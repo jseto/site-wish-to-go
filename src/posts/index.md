@@ -9,3 +9,5 @@ category: index
 <ImportMarkdown slug="index-header"/>
 
 <ImportMarkdown slug="readers-benefit"/>
+
+<ImportMarkdown slug="book-demo"/>

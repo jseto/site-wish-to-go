@@ -6,6 +6,10 @@
 		@extend .container;
 		@extend .section;
 
+		.content {
+			@extend %inner-content;
+		}
+
 		h1 {
 			background-color: $main-blue;
 			color: $white;

@@ -1,6 +1,10 @@
 .index {
-	
+
 	.index-header {
+		.content {
+			@extend %inner-content;
+		}
+
 		background-color: $main-blue;
 		padding: 3em 10%;
 
@@ -44,8 +48,11 @@
 	}
 
 	.readers-benefit {
+		.content {
+			@extend %inner-content;
+		}
+		
 		padding: 3em 10%;
-
 
 		.columns {
 			@extend .is-vcentered;
@@ -69,6 +76,53 @@
 		p {
 			text-align: center;
 			color: gray;
+		}
+	}
+
+	.book-demo {
+		.content {
+			@extend %inner-content;
+		}
+		
+		background-color: $soft-blue;
+		padding: 3em 10% 3.5em 10%;
+		
+		h2 {
+			text-align: center;
+			color: $white;
+			margin-top: 0em;
+		}
+
+		blockquote {
+			margin: 2em;
+			border: none;
+			border-radius: 0 40%;
+
+			&:not(:last-child) {
+				margin-bottom: 5em;
+			} 	
+			
+			p {
+				padding: 1em 0;
+				font-size: 1.2em;
+			}
+		}
+		
+		p {
+			text-align: center;
+			font-weight: 100;
+			font-size: 1.5em;
+			// margin: 4em 0;
+		}
+
+		a {
+			@extend .round-blue-button;
+			background-color: $main-blue;
+			font-size: 1.3em;
+		}
+
+		li {
+			font-size:1em;
 		}
 	}
 

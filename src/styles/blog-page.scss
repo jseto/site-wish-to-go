@@ -10,7 +10,7 @@
 .content {
 	.blog-page {
 		@extend .page;
-		max-width: $desktop;
+		// max-width: $desktop;
 
 		h1 {
 			margin-bottom: 0em;
