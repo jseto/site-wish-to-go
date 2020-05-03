@@ -1,5 +1,4 @@
 import * as React from 'react'
-import './wtg-widget-style.scss'
 
 export const WishWidget = ( props ) => (
 	<span 

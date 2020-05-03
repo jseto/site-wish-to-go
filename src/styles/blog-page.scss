@@ -32,41 +32,81 @@
 			padding: 2em;
 		}
 	}
-}
-
-.blog-entry-card {
-	.entry-card {
-		@extend %blog-panel;
 	
-		h2 {
-			margin: 0;
-			padding: 1em 1em;
-			font-size: 2em;
-			text-align: left;
-
-			&:hover {
-				transition: 0.1s;
-				color: $dark-blue;
+	.blog-entry-card {
+		.entry-card {
+			@extend %blog-panel;
+		
+			h2 {
+				margin: 0;
+				padding: 1em 1em;
+				font-size: 2em;
+				text-align: left;
+	
+				&:hover {
+					transition: 0.1s;
+					color: $dark-blue;
+				}
+			}
+		
+			.image-container {
+				cursor: pointer;
+				margin-bottom: 1em;
+				&:hover {
+					transition: 0.2s;
+					transform: scale(1.03);
+				}
+			}
+		
+			p {
+				text-align: left;
+			}
+	
+			p:last-child {
+				color: darkgray;
+				padding: 0em 1em;
 			}
 		}
-	
-		.image-container {
-			cursor: pointer;
-			margin-bottom: 1em;
-			&:hover {
-				transition: 0.2s;
-				transform: scale(1.03);
+	}
+
+	.wish-to-go {
+
+		.trip-planner{
+			// .wish-to-go.trip-panel
+			// 	// .column
+			// 	// 	padding: 0
+			.login-provider-buttons {
+				.button {
+					justify-content: unset;
+					display: unset;
+				}
+				.column {
+					padding: 0
+				}
 			}
 		}
-	
-		p {
-			text-align: left;
+		
+		.view-panel {
+			.controller-container {
+				box-sizing: unset;
+			}
 		}
-
-		p:last-child {
-			color: darkgray;
-			padding: 0em 1em;
+		
+		.wish-counter-widget {
+			font-size: 20pt;
+		}
+		
+		.stick-to-bottom {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			z-index: 100;
+		}
+		
+		.share-trip-widget {
+			margin: 4em auto; 
 		}
 	}
 }
+
 

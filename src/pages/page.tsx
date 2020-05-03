@@ -78,3 +78,5 @@ query Page( $id: String ) {
 // index
 // index-header
 // readers-benefit
+// blog-page
+// blog-entry-card
