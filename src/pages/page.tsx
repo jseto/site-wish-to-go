@@ -80,3 +80,4 @@ query Page( $id: String ) {
 // readers-benefit
 // blog-page
 // blog-entry-card
+// blog-main

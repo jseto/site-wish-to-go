@@ -68,6 +68,19 @@
 			}
 		}
 	}
+	
+	.blog-main {
+		blockquote {
+			background-color: $light-blue;
+			margin-top: 1em;
+			border: 4px solid $soft-blue;
+			border-radius: 10px;
+			h2 {
+				font-style: normal;
+				color: $main-blue;
+			}
+		}
+	}
 
 	.wish-to-go {
 
@@ -96,17 +109,17 @@
 			font-size: 20pt;
 		}
 		
-		.stick-to-bottom {
-			position: fixed;
-			bottom: 0;
-			right: 0;
-			z-index: 100;
-		}
-		
 		.share-trip-widget {
 			margin: 4em auto; 
 		}
 	}
+}
+
+.stick-to-bottom {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
 }
 
 
