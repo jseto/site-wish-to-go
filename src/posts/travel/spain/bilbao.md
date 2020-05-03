@@ -56,4 +56,4 @@ Here you can taste the best _pintxos_ in the whole city, as well as sit on one o
 
 ## More of Spain
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>

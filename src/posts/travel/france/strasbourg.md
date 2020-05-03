@@ -42,4 +42,4 @@ Strasbourg is the capital of the Alsace region of France and is most widely know
 
 ## More of France
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>

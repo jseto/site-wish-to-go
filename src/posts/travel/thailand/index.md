@@ -19,7 +19,7 @@ Thailand is a huge country full of unexpected experiences. It is the most popula
 
 <ShareTripWidget user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1" trip-name="Wish To Go Trip to Thailand" icon-url="/images/blogger.png"/>
 
-<CategoryEntries className="blog-entry-card" category="city" tags="Thailand"/>
+<CustomCategoryEntries className="blog-entry-card" category="city" tags="Thailand"/>
 
 ## Popular Destinations
 
@@ -48,4 +48,4 @@ Thailand is a huge country full of unexpected experiences. It is the most popula
 
 ## Other Countries
 
-<CategoryEntries className="blog-entry-card more-of" category="country"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="country"/>

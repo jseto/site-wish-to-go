@@ -44,4 +44,4 @@ Paris, the cosmopolitan capital of [France](../), is one Europe's largest cities
 
 ## More of France
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>

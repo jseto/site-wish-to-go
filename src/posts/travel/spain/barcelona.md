@@ -47,4 +47,4 @@ The Dalí Theatre-Museum most important surrealistic masterpiece in the world. B
 
 ## More of Spain
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>

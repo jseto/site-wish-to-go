@@ -57,4 +57,4 @@ There are two main beaches, one on either side of the river.
 
 ## More of Spain
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>

@@ -21,7 +21,7 @@ Madrid and Barcelona are the cities that receive most tourists each year. The Ro
 
 <ShareTripWidget user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1" trip-name="Wish To Go Trip to Spain" icon-url="/images/blogger.png"></ShareTripWidget>
 
-<CategoryEntries className="blog-entry-card" category="city" tags="Spain"/>
+<CustomCategoryEntries className="blog-entry-card" category="city" tags="Spain"/>
 
 ## Popular Destinations
 
@@ -80,4 +80,4 @@ Madrid and Barcelona are the cities that receive most tourists each year. The Ro
 
 ## Other Countries
 
-<CategoryEntries className="blog-entry-card more-of" category="country"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="country"/>

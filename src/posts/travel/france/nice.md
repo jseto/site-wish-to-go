@@ -56,4 +56,4 @@ Go to **Eze** <WishWidget country="FR" city="Nice" activity="Eze"></WishWidget>.
 
 ## More of France
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="France"/>

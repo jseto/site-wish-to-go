@@ -94,4 +94,4 @@ The main tower, nearly 100 meters high, was not completed until the middle of th
 
 ## More of Thailand
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Thailand"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Thailand"/>

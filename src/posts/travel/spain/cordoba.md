@@ -56,4 +56,4 @@ The castle of Almodóvar del Río is located 22 kilometres from Córdoba, in the
 
 ## More of Spain
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Spain"/>

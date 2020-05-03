@@ -37,4 +37,4 @@ The city of Chiang Mai is very well-prepared for the tourist, nobody who is prou
 
 ## More of Thailand
 
-<CategoryEntries className="blog-entry-card more-of" category="city" tags="Thailand"/>
+<CustomCategoryEntries className="blog-entry-card more-of" category="city" tags="Thailand"/>
