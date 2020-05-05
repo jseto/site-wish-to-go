@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy of Wish To Go
 date: 2019-12-29T14:05:29+01
+className: page
 category: generic
 tags:
 	- Legal

@@ -24,7 +24,7 @@ In order the widgets to work, you should load the JavaScript code in your page.
 
 - [WishCounterWidget Tag Reference](#the-wishcounterwidget-tag)
 
-- [ShareWTripWidget Tag Reference](#the-sharetripwidget-tag)
+- [ShareTripWidget Tag Reference](#the-sharetripwidget-tag)
 
 	Attributes: [`user-id`](#user-id), [`trip-name`](#trip-name), [`icon-url`](#icon-url), [`label`](#label), [`sub-label`](#sub-label)
 
@@ -59,7 +59,7 @@ The highlighted line is the one loading the JavaScript code. Note that it is ins
 
 In some cases, the initialization of the script can fail because it is called before the page is rendered. This will likely happen when server side rendering is used.
 
-The **Whish to go** JavaScript code exposes a global function in the window namespace called `wtgInit`. If the **WishWidget** and **TripPlannerWidget** are not rendered properly, you can call the `wtgInit` function somewhere in your webpage where you know the document has been rendered.
+The **Wish to go** JavaScript code exposes a global function in the window namespace called `wtgInit`. If the **WishWidget** and **TripPlannerWidget** are not rendered properly, you can call the `wtgInit` function somewhere in your webpage where you know the document has been rendered.
 
 ## The WishWidget Tag
 
@@ -322,7 +322,7 @@ Picture URL
 
 Featured image URL. This picture, if set, will be used in the **Trip Planner** to illustrate the related destination.
 
-You can use it for a country, a city or an activity **WishWidget**. When used in a ***Country WishWidget***[^country_wishwidget], the picture will be used to decorate the related country entry in the **Trip Planner**. If used in a ***City WishWidget***[^city_wishwidget], the picture will illustrate the corresponding city entry and when used with an ***Activity WishWidget***[^activity_wishwidget], the picture will adorn the associated entry in the **Trip Planner**
+You can use it for a country, a city or an activity **WishWidget**. When used in a ***Country WishWidget***[^country_wishwidget], the picture will be used to decorate the related country entry in the **Trip Planner**. If used in a ***City WishWidget***[^city_wishwidget], the picture will illustrate the corresponding city entry and when used with an ***Activity WishWidget***[^activity_wishwidget], the picture will adorn the associated entry in the **Trip Planner**.
 
 #### `label`
 
