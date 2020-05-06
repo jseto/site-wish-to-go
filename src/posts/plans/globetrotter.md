@@ -1,4 +1,5 @@
 ---
+status: no public
 order: 3
 className: plan-card globetrotter
 category: plan

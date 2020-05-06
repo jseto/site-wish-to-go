@@ -1,4 +1,5 @@
 ---
+status: no page
 order: 1
 className: plan-card backpacker
 category: plan

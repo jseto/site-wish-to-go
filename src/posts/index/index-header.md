@@ -1,3 +1,6 @@
+---
+status: unpublished
+---
 
 # The Travel Blog Plugin
 

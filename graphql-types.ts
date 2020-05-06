@@ -694,6 +694,7 @@ export type FileFieldsEnum =
   'childMdx___rawBody' |
   'childMdx___fileAbsolutePath' |
   'childMdx___frontmatter___title' |
+  'childMdx___frontmatter___status' |
   'childMdx___frontmatter___className' |
   'childMdx___frontmatter___description' |
   'childMdx___frontmatter___category' |
@@ -1440,6 +1441,7 @@ export type MdxFieldsEnum =
   'rawBody' |
   'fileAbsolutePath' |
   'frontmatter___title' |
+  'frontmatter___status' |
   'frontmatter___className' |
   'frontmatter___description' |
   'frontmatter___category' |
@@ -1573,6 +1575,7 @@ export type MdxFilterInput = {
 
 export type MdxFrontmatter = {
   title?: Maybe<Scalars['String']>;
+  status?: Maybe<Scalars['String']>;
   className?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['String']>;
   category?: Maybe<Scalars['String']>;
@@ -1591,6 +1594,7 @@ export type MdxFrontmatterDateArgs = {
 
 export type MdxFrontmatterFilterInput = {
   title?: Maybe<StringQueryOperatorInput>;
+  status?: Maybe<StringQueryOperatorInput>;
   className?: Maybe<StringQueryOperatorInput>;
   description?: Maybe<StringQueryOperatorInput>;
   category?: Maybe<StringQueryOperatorInput>;
@@ -2484,6 +2488,7 @@ export type SitePageFieldsEnum =
   'pluginCreator___pluginOptions___trackingIds' |
   'pluginCreator___pluginOptions___gtagConfig___anonymize_ip' |
   'pluginCreator___pluginOptions___pluginConfig___head' |
+  'pluginCreator___pluginOptions___exclude' |
   'pluginCreator___pluginOptions___short_name' |
   'pluginCreator___pluginOptions___start_url' |
   'pluginCreator___pluginOptions___background_color' |
@@ -2686,6 +2691,7 @@ export type SitePluginFieldsEnum =
   'pluginOptions___trackingIds' |
   'pluginOptions___gtagConfig___anonymize_ip' |
   'pluginOptions___pluginConfig___head' |
+  'pluginOptions___exclude' |
   'pluginOptions___short_name' |
   'pluginOptions___start_url' |
   'pluginOptions___background_color' |
@@ -2814,6 +2820,7 @@ export type SitePluginPluginOptions = {
   trackingIds?: Maybe<Array<Maybe<Scalars['String']>>>;
   gtagConfig?: Maybe<SitePluginPluginOptionsGtagConfig>;
   pluginConfig?: Maybe<SitePluginPluginOptionsPluginConfig>;
+  exclude?: Maybe<Array<Maybe<Scalars['String']>>>;
   short_name?: Maybe<Scalars['String']>;
   start_url?: Maybe<Scalars['String']>;
   background_color?: Maybe<Scalars['String']>;
@@ -2833,6 +2840,7 @@ export type SitePluginPluginOptionsFilterInput = {
   trackingIds?: Maybe<StringQueryOperatorInput>;
   gtagConfig?: Maybe<SitePluginPluginOptionsGtagConfigFilterInput>;
   pluginConfig?: Maybe<SitePluginPluginOptionsPluginConfigFilterInput>;
+  exclude?: Maybe<StringQueryOperatorInput>;
   short_name?: Maybe<StringQueryOperatorInput>;
   start_url?: Maybe<StringQueryOperatorInput>;
   background_color?: Maybe<StringQueryOperatorInput>;

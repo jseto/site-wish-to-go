@@ -1,3 +1,7 @@
+---
+status: unpublished
+---
+
 ## Bookmark Destinations from your Travel Posts
 
 <div class="columns">
