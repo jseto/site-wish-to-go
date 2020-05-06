@@ -10,6 +10,7 @@ import { ImportMarkdown } from "../components/import-markdown"
 import { WishWidget, ShareTripWidget, TripPlannerWidget, WishCounterWidget } from "../wish-to-go-plugin/wtg-widgets"
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 import { CustomCategoryEntries } from "../custom-components/custom-category-entries"
+import { Columns } from "../components/columns"
 
 interface PageProps {
   data: PageQuery
@@ -29,7 +30,7 @@ class Page extends React.Component<PageProps> {
 
         <MDXProvider
           components={{
-            CategoryEntries, ImportMarkdown, 
+            CategoryEntries, ImportMarkdown, Columns,
             WishWidget, TripPlannerWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
             CustomCategoryEntries
           }}
