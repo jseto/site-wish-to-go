@@ -82,3 +82,5 @@ query Page( $id: String ) {
 // blog-page
 // blog-entry-card
 // blog-main
+// plans plans-grid plans-faqs plan-card backpacker explorer globetrotter
+// 

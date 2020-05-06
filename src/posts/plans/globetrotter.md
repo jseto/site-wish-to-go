@@ -16,7 +16,7 @@ category: plan
 
  *_billed annually_ <br/> _Saves 2 months_
 
-[Select](/subscription/?plan=globetrotter)
+[Subscribe](/subscription/?plan=globetrotter)
 
 ##### Features
 
