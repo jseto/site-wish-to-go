@@ -3,7 +3,7 @@ import { WishCounterWidget } from "./wtg-widgets"
 import { ScriptLoader } from "../components/script-loader"
 
 interface StartWishToGoProps {
-	noCounter: boolean;
+	noCounter?: boolean;
 }
 
 export class StartWishToGo extends React.Component< StartWishToGoProps > {

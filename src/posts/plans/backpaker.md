@@ -18,7 +18,7 @@ category: plan
 
 *_forever<br/>No credit card required_
 
-[Get it Free](/subscription/?plan=backpacker)
+[Get it Free](/plans/subscription/backpacker/)
 
 ##### Features
 

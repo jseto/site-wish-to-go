@@ -16,7 +16,7 @@ category: plan
 
 *_billed annually_ <br/> _Saves 2 months_
 
-[Subscribe](/subscription/?plan=explorer)
+[Subscribe](/plans/subscription/explorer/)
 
 ##### Features
 

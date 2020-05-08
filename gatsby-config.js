@@ -109,7 +109,15 @@ module.exports = {
 				name: `posts`,
 				path: `${__dirname}/src/posts`,
 			}
-		},
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.svg$/
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
