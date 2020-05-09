@@ -34,6 +34,26 @@ body {
 	}
 }
 
+.error {
+  overflow:hidden;
+  transition:max-height 0.3s ease-out; 
+  max-height: 7em;
+  color: red;
+  text-align: center;
+
+  &.shrink-to-hide {
+    max-height: 0;
+  }
+
+  p {
+    border-radius: 1em;
+    background-color: $white;
+    margin-top: 1em;
+    padding: 0.25em;
+  }
+}
+
+
 %inner-content {
   max-width: $desktop;
   margin-left: auto;

@@ -36,6 +36,7 @@ interface SubscribeState {
 	password: string;
 	blogDomain: string;
 	name: string;
+	error: string;
 }
 
 export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
@@ -47,12 +48,13 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 			email: '',
 			password:'',
 			blogDomain: '',
-			name: ''
+			name: '',
+			error: ''
 		}
 	}
 
 	render() {
-		const { email, password, blogDomain, name } = this.state
+		const { email, password, blogDomain, name, error } = this.state
 
 		return (
 			<div className="subscribe">
@@ -94,6 +96,7 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 							value={password}
 						/>
 					</div>
+
 					<div className="field control is-grouped is-grouped-centered">
 						<button	
 							className="button is-success"
@@ -103,7 +106,9 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 						</button>
 					</div>
 				</div>
+
 				<hr/>
+
 				<div className="social-sign-up">
 					<button 
 						className="button is-info is-fullwidth"
@@ -122,6 +127,13 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 						</span>
 					</button> */}
 				</div>
+
+				<div className={`error ${ error? '' : 'shrink-to-hide'}`}>
+					{ error &&
+						<p>{ error }</p>
+					}
+				</div>
+
 				<StartWishToGo noCounter={true}/>
 			</div>
 		)
@@ -138,10 +150,11 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 			name: name,
 			verificationLink: `https://wish-to-go.com/${plan === 'backpacker'? 'payed' : 'payment'}?plan=${plan}`,
 		}).then( userCredential => {
+			this.setState({ error: '' });
 			console.log( 'Signed Up with Email', userCredential )
 			window.location.href = `/verification-email-sent`
 		}).catch( error => {
-			console.error( 'Cannot sign up. Reason: ', error )
+			this.setState({ error: 'Cannot sign up. Reason: ' + error });
 		})
 	}
 
@@ -151,10 +164,11 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 		this.auth().signUp({ 
 			authProvider: provider,
 		}).then( userCredential => {
+			this.setState({ error: '' });
 			console.log( 'Signed Up with ' + provider, userCredential )
 			window.location.href = `/${plan === 'backpacker'? 'payed' : 'payment'}?plan=${plan}`
 		}).catch( error => {
-			console.error( 'Cannot sign up. Reason: ', error ) 
+			this.setState({ error: 'Cannot sign up. Reason: ' + error });
 		})
 	}
 
