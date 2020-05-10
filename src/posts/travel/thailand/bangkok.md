@@ -84,7 +84,7 @@ The main tower, nearly 100 meters high, was not completed until the middle of th
 
 	![Amphawa - Photo by Lisheng Chang on Unsplash](../../../images/travel/thailand/floating-market-vendor-thailand-lisheng-chang-m9BBVrPl87M-unsplash.jpg)
 
-	Located about 80km from Bangkok, is the second most famous floating market. Although it has also become crowded and many tourists go to it, it is still highly frequented by Thais themselves, who go there to spend the day and eat with friends or family during the weekends. The peak is at 3pm, but it is better to arrive a little earlier to eat the food they cook directly on the boats on the river.
+	Located about 80 km from Bangkok, is the second most famous floating market. Although it has also become crowded and many tourists go to it, it is still highly frequented by Thais themselves, who go there to spend the day and eat with friends or family on weekends. The peak is at 3pm, but it is better to arrive a little earlier to eat the food they cook directly on the boats on the river.
 
 - **Khao Yai** <WishWidget country="TH"	city="Bangkok" activity="Khao Yai" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/elephant-thailand-jesse-schoff-74yB8FhZyWc-unsplash.jpg"/>
 

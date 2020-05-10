@@ -1,18 +1,27 @@
 .subscription {
 	@extend .page;
 
-	h2 {
-		font-size: 1.5em;
-		margin-top: 0;
-	}
-
-	p {
-		font-weight: 100;
-		font-size: 0.9em;
+	.content h2 {
+		margin-top: -5em;
+		margin-bottom: 3em;
+		color: $light-blue;
 	}
 
 	.column {
 		padding: 2em;
+
+		h2 {
+			font-size: 1.5em;
+			margin-top: 0;
+			margin-bottom: 1em;
+			color: $main-blue;
+		}
+	
+		p {
+			font-weight: 100;
+			font-size: 0.9em;
+		}
+	
 	}
 
 	.subscribe {
@@ -57,5 +66,10 @@
 				margin: 0 0.5em;
 			}
 		}
+	}
+
+	svg {
+		width: 75%;
+		fill: $light-blue;
 	}
 }

@@ -2,7 +2,6 @@ import * as React from "react"
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go";
 import GoogleIcon from "@fortawesome/fontawesome-free/svgs/brands/google.svg";
 
-
 interface UserCredential {
 	authId: string;
 	email: string;
@@ -60,51 +59,53 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 			<div className="subscribe">
 				<h2>Create your Account</h2>
 				<div className="email-sign-up">
-					<div className="field control">
-						<input
-							className="input"
-							placeholder="Your name"
-							type="text"
-							onChange={ event => this.setState({ name: event.target.value })}
-							value={name}
-						/>
-					</div>
-					<div className="field control">
-						<input
-							className="input"
-							placeholder="Your blog domain name"
-							type="text"
-							onChange={ event => this.setState({ blogDomain: event.target.value })}
-							value={blogDomain}
-						/>
-					</div>
-					<div className="field control">
-						<input
-							className="input"
-							placeholder="Your email address"
-							type="email"
-							onChange={ event => this.setState({ email: event.target.value })}
-							value={email}
-						/>
-					</div>
-					<div className="field control">
-						<input
-							className="input"
-							placeholder="Choose a password"
-							type="password"
-							onChange={event => this.setState({ password: event.target.value })}
-							value={password}
-						/>
-					</div>
-
-					<div className="field control is-grouped is-grouped-centered">
-						<button	
-							className="button is-success"
-							onClick={ () => this.signWithEmail( email, password, name, blogDomain ) }
-						>
-							Subscribe with Email
-						</button>
-					</div>
+					<form onSubmit={ event => this.signWithEmail( email, password, name, blogDomain, event ) }>
+						<div className="field control">
+							<input
+								className="input"
+								placeholder="Your name"
+								type="text"
+								autoComplete="name"
+								onChange={ event => this.setState({ name: event.target.value })}
+								value={name}
+							/>
+						</div>
+						<div className="field control">
+							<input
+								className="input"
+								placeholder="Your blog domain name"
+								type="text"
+								autoComplete="url"
+								onChange={ event => this.setState({ blogDomain: event.target.value })}
+								value={blogDomain}
+							/>
+						</div>
+						<div className="field control">
+							<input
+								className="input"
+								placeholder="Your email address"
+								type="email"
+								autoComplete="email"
+								onChange={ event => this.setState({ email: event.target.value })}
+								value={email}
+							/>
+						</div>
+						<div className="field control">
+							<input
+								className="input"
+								placeholder="Choose a password"
+								type="password"
+								autoComplete="current-password"
+								onChange={event => this.setState({ password: event.target.value })}
+								value={password}
+							/>
+						</div>
+						<div className="field control is-grouped is-grouped-centered">
+							<button	className="button is-success" type="submit">
+								Subscribe with Email
+							</button>
+						</div>
+					</form>
 				</div>
 
 				<hr/>
@@ -139,34 +140,48 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 		)
 	}
 
-	private signWithEmail( email: string, password: string, name: string, blogDomain: string ) {
-		const { plan } = this.props
-		
+	private getVerifiedURL( defaultParams?: { email?: string, name?: string, blogDomain?: string } ) {
+		const params = {
+			plan: this.props.plan,
+			email: defaultParams?.email || this.state.email,
+			blogDomain: defaultParams?.blogDomain || this.state.blogDomain,
+			name: defaultParams?.name || this.state.name
+		}
+
+		const queryString = Object.keys( params ).filter( key => params[key]).map( 
+			key => `${ encodeURIComponent(key) }=${ encodeURIComponent( params[ key ] ) }`
+		).join('&')
+
+		return `/verified?${ queryString }`
+	}
+
+	private signWithEmail( email: string, password: string, name: string, blogDomain: string, event: React.FormEvent ) {
+		event.preventDefault()
+
 		this.auth().signUp({ 
 			authProvider: 'email', 
 			email: email, 
 			password: password,
 			blogDomain: blogDomain,
 			name: name,
-			verificationLink: `https://wish-to-go.com/${plan === 'backpacker'? 'payed' : 'payment'}?plan=${plan}`,
-		}).then( userCredential => {
+			verificationLink: 'https://wish-to-go.com' + this.getVerifiedURL()
+		}).then( () => {
 			this.setState({ error: '' });
-			console.log( 'Signed Up with Email', userCredential )
-			window.location.href = `/verification-email-sent`
+			window.location.href = `/plans/subscription/verification-email-sent/`
 		}).catch( error => {
 			this.setState({ error: 'Cannot sign up. Reason: ' + error });
 		})
 	}
 
 	private signWithProvider( provider: string ) {
-		const { plan } = this.props
-
 		this.auth().signUp({ 
 			authProvider: provider,
 		}).then( userCredential => {
 			this.setState({ error: '' });
-			console.log( 'Signed Up with ' + provider, userCredential )
-			window.location.href = `/${plan === 'backpacker'? 'payed' : 'payment'}?plan=${plan}`
+			window.location.href = this.getVerifiedURL({ 
+				name: userCredential.name,
+				email: userCredential.email
+			})
 		}).catch( error => {
 			this.setState({ error: 'Cannot sign up. Reason: ' + error });
 		})

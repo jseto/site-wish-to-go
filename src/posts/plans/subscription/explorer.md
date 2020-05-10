@@ -4,9 +4,11 @@ title: Subscribe to Explorer Plan
 description: Subscribe to Wish To Go Explorer plan.
 ---
 
-# Subscribe to Explorer Plan
+# Start your Explorer Plan Free Trial
 
-<Columns vertical-center>
+## Free for 30 days
+
+<Columns>
 
 import { Subscribe } from "../../../custom-components/subscribe"
 

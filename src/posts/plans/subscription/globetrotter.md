@@ -4,9 +4,11 @@ title: Subscribe to Globetrotter Plan
 description: Subscribe to Wish To Go Globetrotter plan.
 ---
 
-# Subscribe to Globetrotter Plan
+# Start your Globetrotter Plan Free Trial
 
-<Columns vertical-center>
+## Free for 30 days
+
+<Columns>
 
 import { Subscribe } from "../../../custom-components/subscribe"
 

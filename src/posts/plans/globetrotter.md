@@ -16,11 +16,13 @@ category: plan
 
  *_billed annually_ <br/> _Saves 2 months_
 
-[Subscribe](/plans/subscription/globetrotter/)
+[Try it for Free](/plans/subscription/globetrotter/)
 
 ##### Features
 
 ![triangle](../../images/triangle-down.svg)
+
+- 30 days free trial
 
 - Wish List engine
 

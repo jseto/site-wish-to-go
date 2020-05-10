@@ -24,6 +24,8 @@ category: plan
 
 ![triangle](../../images/triangle-down.svg)
 
+- Free forever
+
 - Wish List engine
 
 - Trip Planner tool

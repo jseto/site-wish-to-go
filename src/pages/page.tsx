@@ -11,7 +11,6 @@ import { WishWidget, ShareTripWidget, TripPlannerWidget, WishCounterWidget } fro
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 import { CustomCategoryEntries } from "../custom-components/custom-category-entries"
 import { Columns } from "../components/columns"
-import { Location } from "@reach/router"
 
 interface PageProps {
   data: PageQuery
@@ -31,7 +30,7 @@ class Page extends React.Component<PageProps> {
 
         <MDXProvider
           components={{
-            CategoryEntries, ImportMarkdown, Columns, Location,
+            CategoryEntries, ImportMarkdown, Columns,
             WishWidget, TripPlannerWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
             CustomCategoryEntries
           }}

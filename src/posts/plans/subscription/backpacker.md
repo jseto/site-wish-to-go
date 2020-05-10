@@ -6,7 +6,7 @@ description: Subscribe to Wish To Go Backpacker plan.
 
 # Subscribe to Backpacker Free Plan
 
-<Columns vertical-center>
+<Columns>
 
 import { Subscribe } from "../../../custom-components/subscribe"
 

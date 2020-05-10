@@ -16,11 +16,13 @@ category: plan
 
 *_billed annually_ <br/> _Saves 2 months_
 
-[Subscribe](/plans/subscription/explorer/)
+[Try it for Free](/plans/subscription/explorer/)
 
 ##### Features
 
 ![triangle](../../images/triangle-down.svg)
+
+- 30 days free trial
 
 - Wish List engine
 
