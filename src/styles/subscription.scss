@@ -25,46 +25,56 @@
 	}
 
 	.subscribe {
-		background-color: $soft-blue;
-		padding: 1.5em;
-		border-radius: 5px;
+		.subscribe-box {
+			background-color: $soft-blue;
+			padding: 1.5em;
+			border-radius: 5px;
 
-		h2 {
-			font-size: 2em;
-			color: $main-blue;
-		}
+			h2 {
+				font-size: 2em;
+				color: $main-blue;
+			}
 
-		.social-sign-up {
-			text-align: center;
-			margin-top: 0.5em;
+			.social-sign-up {
+				text-align: center;
+				margin-top: 0.5em;
+				button {
+					background-color: $vibrant-blue;
+				}
+			}
+
+
+			hr {
+				overflow: visible;
+				text-align: center;
+				background-color: unset;
+				background-image: linear-gradient(to right, #ddd0, #dddf, #ddd0);
+				
+				&:after {
+					content: "or";
+					position: relative;
+					top: -0.75em;
+					padding: 0 0.3em;
+					background: $soft-blue;
+					color: #ddd;
+				}
+			}
+
 			button {
-				background-color: $vibrant-blue;
+				svg {
+					width: 1em;
+					fill: $white;
+					margin: 0 0.5em;
+				}
 			}
 		}
 
-
-		hr {
-			overflow: visible;
-			text-align: center;
-			background-color: unset;
-			background-image: linear-gradient(to right, #ddd0, #dddf, #ddd0);
-			
-			&:after {
-				content: "or";
-				position: relative;
-				top: -0.75em;
-				padding: 0 0.3em;
-				background: $soft-blue;
-				color: #ddd;
-			}
-		}
-
-		button {
-			svg {
-				width: 1em;
-				fill: $white;
-				margin: 0 0.5em;
-			}
+		small {
+			display: inline-block;
+			margin: 0.5em 1.5em;
+  		text-align: center;
+			font-weight: 100;
+			font-size: 0.75em;
 		}
 	}
 

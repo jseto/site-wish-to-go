@@ -1,6 +1,7 @@
 import * as React from "react"
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go";
 import GoogleIcon from "@fortawesome/fontawesome-free/svgs/brands/google.svg";
+import { Link } from "gatsby";
 
 interface UserCredential {
 	authId: string;
@@ -57,86 +58,94 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 
 		return (
 			<div className="subscribe">
-				<h2>Create your Account</h2>
-				<div className="email-sign-up">
-					<form onSubmit={ event => this.signWithEmail( email, password, name, blogDomain, event ) }>
-						<div className="field control">
-							<input
-								className="input"
-								placeholder="Your name"
-								type="text"
-								autoComplete="name"
-								onChange={ event => this.setState({ name: event.target.value })}
-								value={name}
-							/>
-						</div>
-						<div className="field control">
-							<input
-								className="input"
-								placeholder="Your blog domain name"
-								type="text"
-								autoComplete="url"
-								onChange={ event => this.setState({ blogDomain: event.target.value })}
-								value={blogDomain}
-							/>
-						</div>
-						<div className="field control">
-							<input
-								className="input"
-								placeholder="Your email address"
-								type="email"
-								autoComplete="email"
-								onChange={ event => this.setState({ email: event.target.value })}
-								value={email}
-							/>
-						</div>
-						<div className="field control">
-							<input
-								className="input"
-								placeholder="Choose a password"
-								type="password"
-								autoComplete="current-password"
-								onChange={event => this.setState({ password: event.target.value })}
-								value={password}
-							/>
-						</div>
-						<div className="field control is-grouped is-grouped-centered">
-							<button	className="button is-success" type="submit">
-								Subscribe with Email
-							</button>
-						</div>
-					</form>
+				<div className="subscribe-box">
+					<h2>Create your Account</h2>
+					<div className="email-sign-up">
+						<form onSubmit={ event => this.signWithEmail( email, password, name, blogDomain, event ) }>
+							<div className="field control">
+								<input
+									className="input"
+									placeholder="Your name"
+									type="text"
+									autoComplete="name"
+									onChange={ event => this.setState({ name: event.target.value })}
+									value={name}
+								/>
+							</div>
+							<div className="field control">
+								<input
+									className="input"
+									placeholder="Your blog domain name"
+									type="text"
+									autoComplete="url"
+									onChange={ event => this.setState({ blogDomain: event.target.value })}
+									value={blogDomain}
+								/>
+							</div>
+							<div className="field control">
+								<input
+									className="input"
+									placeholder="Your email address"
+									type="email"
+									autoComplete="email"
+									onChange={ event => this.setState({ email: event.target.value })}
+									value={email}
+								/>
+							</div>
+							<div className="field control">
+								<input
+									className="input"
+									placeholder="Choose a password"
+									type="password"
+									autoComplete="current-password"
+									onChange={event => this.setState({ password: event.target.value })}
+									value={password}
+								/>
+							</div>
+							<div className="field control is-grouped is-grouped-centered">
+								<button	className="button is-success is-fullwidth" type="submit">
+									Subscribe with Email
+								</button>
+							</div>
+						</form>
+					</div>
+
+					<hr/>
+
+					<div className="social-sign-up">
+						<button 
+							className="button is-info is-fullwidth"
+							onClick={() => this.signWithProvider( 'google' ) }
+						>
+							<span>Subscribe with Google</span>
+							<GoogleIcon/>
+						</button>
+						{/* <button 
+							className="button is-info is-fullwidth"
+							onClick={() => this.signWithProvider( 'facebook' )}
+						>
+							<span>Subscribe with Facebook</span>
+							<span className="icon">
+								<i className=" fab fa-facebook"></i>
+							</span>
+						</button> */}
+					</div>
+					
+					<div className={`error ${ error? '' : 'shrink-to-hide'}`}>
+						{ error &&
+							<p>{ error }</p>
+						}
+					</div>
+					
+					<StartWishToGo noCounter={true}/>
 				</div>
 
-				<hr/>
-
-				<div className="social-sign-up">
-					<button 
-						className="button is-info is-fullwidth"
-						onClick={() => this.signWithProvider( 'google' ) }
-					>
-						<span>Subscribe with Google</span>
-						<GoogleIcon/>
-					</button>
-					{/* <button 
-						className="button is-info is-fullwidth"
-						onClick={() => this.signWithProvider( 'facebook' )}
-					>
-						<span>Subscribe with Facebook</span>
-						<span className="icon">
-							<i className=" fab fa-facebook"></i>
-						</span>
-					</button> */}
-				</div>
-
-				<div className={`error ${ error? '' : 'shrink-to-hide'}`}>
-					{ error &&
-						<p>{ error }</p>
-					}
-				</div>
-
-				<StartWishToGo noCounter={true}/>
-			</div>
+				<small>
+					By subscribing to our service, you agree to our 
+					<Link to="/legal/terms/"> Terms and Conditions</Link> and
+					<Link to="legal/privacy-policy/"> Privacy Policy</Link>.
+				</small>
+			</div>		
 		)
 	}
 
