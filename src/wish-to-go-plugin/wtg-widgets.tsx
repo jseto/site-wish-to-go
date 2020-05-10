@@ -8,10 +8,10 @@ export const WishWidget = ( props ) => (
 	/>
 )
 
-export const TripPlannerWidget = ( props ) => (
+export const TravelPlanWidget = ( props ) => (
 	<span 
 		dangerouslySetInnerHTML={{ __html: `
-			<TripPlannerWidget ${ propsToString( props ) }/>
+			<TravelPlanWidget ${ propsToString( props ) }/>
 		`}}
 	/>
 )

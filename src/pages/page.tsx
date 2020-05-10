@@ -7,7 +7,7 @@ import { PageQuery } from "../../graphql-types"
 import { MDXProvider } from "@mdx-js/react"
 import { CategoryEntries } from "../components/category-entries"
 import { ImportMarkdown } from "../components/import-markdown"
-import { WishWidget, ShareTripWidget, TripPlannerWidget, WishCounterWidget } from "../wish-to-go-plugin/wtg-widgets"
+import { WishWidget, ShareTripWidget, TravelPlanWidget, WishCounterWidget } from "../wish-to-go-plugin/wtg-widgets"
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 import { CustomCategoryEntries } from "../custom-components/custom-category-entries"
 import { Columns } from "../components/columns"
@@ -31,7 +31,7 @@ class Page extends React.Component<PageProps> {
         <MDXProvider
           components={{
             CategoryEntries, ImportMarkdown, Columns,
-            WishWidget, TripPlannerWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
+            WishWidget, TravelPlanWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
             CustomCategoryEntries
           }}
         >
