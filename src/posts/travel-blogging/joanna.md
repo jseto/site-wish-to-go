@@ -3,7 +3,6 @@ title: Let Joanna fall in love with your travel blog
 date: 2020-02-20T04:23:35Z
 category: travel-blogging
 className: blog-page
-featuredImage: ../../images/travel-blogging/reading-mobile.jpg
 tags:
   - story
 ---
