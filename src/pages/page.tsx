@@ -106,3 +106,4 @@ query Page( $id: String ) {
 // blog-main
 // plans plans-grid plans-faqs plan-card backpacker explorer globetrotter
 // subscription subscribe social-sign-up
+// share-trip-widget wish-counter-widget trip-planner login-provider-buttons view-panel controller-container
