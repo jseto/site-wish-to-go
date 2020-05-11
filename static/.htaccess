@@ -1,1 +1,3 @@
 Redirect 301 /blog /travel/
+Redirect 301 /travel-blog-monetization /travel-blogging/
+Redirect 301 /stories /travel-blogging/

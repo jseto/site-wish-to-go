@@ -37,6 +37,8 @@ module.exports = {
         { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ],
       secondColumnItems: [
+        { content: 'Travel Blogging Tips', href: '/travel-blogging/' },
+        { content: '' },
         { content: 'Privacy Policy', href: '/legal/privacy-policy/' },
         { content: 'Terms and Conditions', href: '/legal/terms/' },
       ],
