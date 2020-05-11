@@ -57,7 +57,7 @@ También hemos pensado en ti. El plan _Globetrotter_ está diseñado especialmen
 
 ## ¿Dónde puedo ver un blog de viajes que tenga una lista de destinos?
 
-Puedes ver como funciona **Wish To Go** en nuestro [blog de demo](https://wish-to-go.com/blog). Cuando lo veas no te rías de nuestro blog, es solo una pequeña demo, vale? 😊.
+Puedes ver como funciona **Wish To Go** en nuestro [blog de demo](/travel/). Cuando lo veas no te rías de nuestro blog, es solo una pequeña demo, vale? 😊.
 
 ¡Ah! Se me olvidaba. A pesar de que nuestra web está en ingles, las herramientas que incorporas en tu blog están, por supuesto, traducidas al español.
 

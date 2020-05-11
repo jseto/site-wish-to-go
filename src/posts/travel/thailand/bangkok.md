@@ -10,7 +10,7 @@ className: blog-page
 
 <StartWishToGo/>
 
-# Bangkok <WishWidget	country="TH" city="Bangkok" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/bangkok-yaowarat-florian-wehde--y3sidWvDxg-unsplash.jpg"/>
+# Bangkok <WishWidget	country="TH" city="Bangkok" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/bangkok-yaowarat-florian-wehde--y3sidWvDxg-unsplash.jpg"/>
 
 ![Bangkok - Photo by Florian Wehde on Unsplash](../../../images/travel/thailand/bangkok-yaowarat-florian-wehde--y3sidWvDxg-unsplash.jpg)
 
@@ -19,7 +19,7 @@ Bangkok is the vibrant capital of the country. One of the most populated in the 
 ## What to see
 
 ### Grand Palace and Emerald Buddha
-<WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/grand-palace-bangkok-thailand.jpg" label="true"></WishWidget>
+<WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://wish-to-go.com/images/for-wish-to-go/thailand/grand-palace-bangkok-thailand.jpg" label="true"></WishWidget>
 
 ![Grand Palace](../../../images/travel/thailand/grand-palace-bangkok-thailand.jpg)
 
@@ -30,7 +30,7 @@ After the destruction of Ayutthaya, the ancient capital of the kingdom of Siam, 
 The imposing complex is protected by the Chao Phraya River, the backbone of the city. A wall almost two metres high separates the palace from the rest of Bangkok. Next to the wall there is a defensive channel that transforms the enclosure into a kind of island called Rattana Kosin.
 
 ### Wat Pho
-<WishWidget	country="TH" city="Bangkok" activity="Wat Pho" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/wat-pho.jpg" label/>
+<WishWidget	country="TH" city="Bangkok" activity="Wat Pho" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/wat-pho.jpg" label/>
 
 ![Wat Pho](../../../images/travel/thailand/wat-pho.jpg)
 
@@ -41,7 +41,7 @@ Its contrast with the small dimensions of the temple is one of the things that d
 The Buddha is completely covered with gold leaf and shines in a special way inside the small temple. His eyes are made of mother-of-pearl, and his feet are delicately inlaid with the same material. Do not miss this detail when you are there, it is really amazing the level of pointillism of the designs.
 
 ### Wat Arun
-<WishWidget	country="TH" city="Bangkok" activity="Wat Arun" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/wat-arun-bangkok-evan-krause-8aSAEuPHg-o-unsplash.jpg" label/>
+<WishWidget	country="TH" city="Bangkok" activity="Wat Arun" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/wat-arun-bangkok-evan-krause-8aSAEuPHg-o-unsplash.jpg" label/>
 
 ![Wat Arun - Photo by Evan Krause](../../../images/travel/thailand/wat-arun-bangkok-evan-krause-8aSAEuPHg-o-unsplash.jpg)
 
@@ -54,25 +54,25 @@ The main tower, nearly 100 meters high, was not completed until the middle of th
 
 ## What to do
 
-- **Canal Tour** <WishWidget country="TH"	city="Bangkok" activity="Canal Tour" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/floating-market-thailand-frida-aguilar-estrada-_ffkj8TnuGo-unsplash.jpg"/>
+- **Canal Tour** <WishWidget country="TH"	city="Bangkok" activity="Canal Tour" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/floating-market-thailand-frida-aguilar-estrada-_ffkj8TnuGo-unsplash.jpg"/>
 
 	![Canal Tour - Photo by Frida Aguilar](../../../images/travel/thailand/floating-market-thailand-frida-aguilar-estrada-_ffkj8TnuGo-unsplash.jpg)
 
 	The public boats cost only 10 to 20 baht and take you to the same places as the luxury cruises, but with the charm of the authentic. Get on the boat at sunset to enjoy a wonderful sunset.
 
-- **Food Tour** <WishWidget country="TH" city="Bangkok" activity="Food Tour" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/woman-cooking-thailand-vernon-raineil-cenzon-QAkqxrH6mvc-unsplash.jpg"/>
+- **Food Tour** <WishWidget country="TH" city="Bangkok" activity="Food Tour" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/woman-cooking-thailand-vernon-raineil-cenzon-QAkqxrH6mvc-unsplash.jpg"/>
 
 	![Food Tour - Photo by Vernon Raineil Cenzon](../../../images/travel/thailand/woman-cooking-thailand-vernon-raineil-cenzon-QAkqxrH6mvc-unsplash.jpg)
 
 	Day and night tours to get a taste of Bangkok. These are tours for tourists, but carried out by local guides who, as well as taking you to authentic bars and places you might not enter alone, teach you much more about the culture of the destination than a travel guide can tell you. Our guides were two modern girls with excellent English whose mission was to show us that there is much more to Bangkok than Pad Thai and fried rice.
 
-- **Cooking Class** <WishWidget	country="TH" city="Bangkok" activity="Cooking Class" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/man-cooking-thailand-gareth-harrison-d2fCUh0PIKo-unsplash.jpg"/>
+- **Cooking Class** <WishWidget	country="TH" city="Bangkok" activity="Cooking Class" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/man-cooking-thailand-gareth-harrison-d2fCUh0PIKo-unsplash.jpg"/>
 
 	![Cooking Class - Photo by Gareth Harrison](../../../images/travel/thailand/man-cooking-thailand-gareth-harrison-d2fCUh0PIKo-unsplash.jpg)
 
 	Those courses last 3 hours and in them you learn about Thai ingredients, cook three typical dishes and eat them later. All this with a team of aproned "elves" who come quietly from behind and help you to cut the ingredients well, lower or raise the fire in the wok and make sure you are on the right track. And maybe that's the secret; for three hours you become a real Thai chef who does his dishes wonderfully. Too bad we don't have those elves (or those ingredients) at home and we don't even remember the order of the food anymore.
 
-- **Chatuchak Market** <WishWidget country="TH" city="Bangkok" activity="Chatuchak Market" 	picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/night-market-thailand-geoff-greenwood-Dj5evF5JCjI-unsplash.jpg"></WishWidget>
+- **Chatuchak Market** <WishWidget country="TH" city="Bangkok" activity="Chatuchak Market" 	picture="https://wish-to-go.com/images/for-wish-to-go/thailand/night-market-thailand-geoff-greenwood-Dj5evF5JCjI-unsplash.jpg"></WishWidget>
 
 	![Chatuchak Market - Photo by Geoff Greenwood](../../../images/travel/thailand/night-market-thailand-geoff-greenwood-Dj5evF5JCjI-unsplash.jpg)
 
@@ -80,13 +80,13 @@ The main tower, nearly 100 meters high, was not completed until the middle of th
 
 ## Bangkok Outskirts
 
-- **Amphawa Floating Market** <WishWidget	country="TH" city="Bangkok"	activity="Amphawa Floating Market" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/floating-market-vendor-thailand-lisheng-chang-m9BBVrPl87M-unsplash.jpg"></WishWidget>
+- **Amphawa Floating Market** <WishWidget	country="TH" city="Bangkok"	activity="Amphawa Floating Market" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/floating-market-vendor-thailand-lisheng-chang-m9BBVrPl87M-unsplash.jpg"></WishWidget>
 
 	![Amphawa - Photo by Lisheng Chang on Unsplash](../../../images/travel/thailand/floating-market-vendor-thailand-lisheng-chang-m9BBVrPl87M-unsplash.jpg)
 
 	Located about 80 km from Bangkok, is the second most famous floating market. Although it has also become crowded and many tourists go to it, it is still highly frequented by Thais themselves, who go there to spend the day and eat with friends or family on weekends. The peak is at 3pm, but it is better to arrive a little earlier to eat the food they cook directly on the boats on the river.
 
-- **Khao Yai** <WishWidget country="TH"	city="Bangkok" activity="Khao Yai" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/elephant-thailand-jesse-schoff-74yB8FhZyWc-unsplash.jpg"/>
+- **Khao Yai** <WishWidget country="TH"	city="Bangkok" activity="Khao Yai" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/elephant-thailand-jesse-schoff-74yB8FhZyWc-unsplash.jpg"/>
 
 	![Khao Yai - Photo by Jesse Schoff](../../../images/travel/thailand/elephant-thailand-jesse-schoff-74yB8FhZyWc-unsplash.jpg)
 

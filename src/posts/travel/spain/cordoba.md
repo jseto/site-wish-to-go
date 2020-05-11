@@ -10,14 +10,14 @@ className: blog-page
 
 <StartWishToGo/>
 
-# Cordoba <WishWidget country="ES" city="Cordoba" picture="https://wish-to-go.com/images/for-wish-to-go/travel/spain/mezquita-cordoba-eliott-van-buggenhout-q4Je53Uscck-unsplash.jpg"></WishWidget>
+# Cordoba <WishWidget country="ES" city="Cordoba" picture="https://wish-to-go.com/images/for-wish-to-go/spain/mezquita-cordoba-eliott-van-buggenhout-q4Je53Uscck-unsplash.jpg"></WishWidget>
 
 ![Cordoba - Photo by Eliott van Buggenhout](../../../images/travel/spain/mezquita-cordoba-eliott-van-buggenhout-q4Je53Uscck-unsplash.jpg)
 
 Cordoba is an incredible city in the autonomous community of Andalusia, it was the largest capital in Europe, surpassing Paris and Rome in its academic, architectural and artistic achievements. The historic centre of Cordoba, due to its architectural integrity and beauty, the result of the aggregation of several styles, is part of the UNESCO World Heritage Sites.
 
 ## The Mezquita
-<WishWidget country="ES" city="Cordoba" activity="The Mezquita" picture="https://wish-to-go.com/images/for-wish-to-go/travel/spain/mezquita_arches_cordoba.jpg" label/>
+<WishWidget country="ES" city="Cordoba" activity="The Mezquita" picture="https://wish-to-go.com/images/for-wish-to-go/spain/mezquita_arches_cordoba.jpg" label/>
 
 ![The famous arches of the Mezquita](../../../images/travel/spain/mezquita_arches_cordoba.jpg)
 
@@ -26,13 +26,13 @@ The great mosque created for the Caliphate of Cordoba, an important Arab kingdom
 Inside the Mosque is the **Cathedral of Cordoba** <WishWidget country="ES" city="Cordoba" activity="Cathedral"></WishWidget>, built in the sixteenth century, is an artistic demonstration of the triumph of Christianity. At the time of its construction, the city's clergy decided to build a large Christian temple that could symbolize the importance of Cordoba. The project consisted in the demolition of an important part of the building of the great Mosque, breaking the perspective of the forest of columns and inserting a Christian cathedral in its place. Getting through one of the doors you'll find the **Patio de los Naranjos** <WishWidget country="ES" city="Cordoba" activity="Patio de los Naranjos"></WishWidget>.
 
 ### The Old City
-<WishWidget country="ES" city="Cordoba" activity="The Old City" picture="https://wish-to-go.com/images/for-wish-to-go/travel/spain/citywall_cordoba.jpg" label/>
+<WishWidget country="ES" city="Cordoba" activity="The Old City" picture="https://wish-to-go.com/images/for-wish-to-go/spain/citywall_cordoba.jpg" label/>
 
 ![The City Wall and Puerta de Almodóvar](../../../images/travel/spain/citywall_cordoba.jpg)
 
 The castle of Almodóvar del Río is located 22 kilometres from Córdoba, in the city of Almodóvar del Río. It is an old Moorish military fortress dating from 740. Built in a strategic and advantageous position on the top of a hill, the castle is surrounded by a fortress that occupies more than 5,000 square meters. From its position, the fortress provided defence for the city of Cordoba. Visitors can walk through the ancient defence walls, towers, dungeons and underground passages.
 
-- **Puente Romano** <WishWidget country="ES" city="Cordoba" activity="Puente Romano" picture="https://wish-to-go.com/images/for-wish-to-go/travel/spain/puente-romano-cordoba-saad-chaudhry-uYMyUKL1QSU-unsplash.jpg" label/>
+- **Puente Romano** <WishWidget country="ES" city="Cordoba" activity="Puente Romano" picture="https://wish-to-go.com/images/for-wish-to-go/spain/puente-romano-cordoba-saad-chaudhry-uYMyUKL1QSU-unsplash.jpg" label/>
 
 	![Puente Romano - Photo by Saad Chaudhry](../../../images/travel/spain/puente-romano-cordoba-saad-chaudhry-uYMyUKL1QSU-unsplash.jpg)
 
@@ -44,7 +44,7 @@ The castle of Almodóvar del Río is located 22 kilometres from Córdoba, in the
 
 ### Outside the Old City
 
-- **Plaza del Cristo de los Faroles** <WishWidget country="ES" city="Cordoba" activity="Cristo de los faroles" picture="https://wish-to-go.com/images/for-wish-to-go/travel/spain/cristo-faroles-cordoba.jpg"></WishWidget>
+- **Plaza del Cristo de los Faroles** <WishWidget country="ES" city="Cordoba" activity="Cristo de los faroles" picture="https://wish-to-go.com/images/for-wish-to-go/spain/cristo-faroles-cordoba.jpg"></WishWidget>
 
 	![Cristo de los Faroles](../../../images/travel/spain/cristo-faroles-cordoba.jpg)
 

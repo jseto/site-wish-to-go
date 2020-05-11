@@ -10,12 +10,12 @@ className: blog-page
 
 <StartWishToGo/>
 
-# Thailand <WishWidget country="TH" picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/thailand-isle-beach-sumit-chinchane-jWKk-0ZBUyg-unsplash.jpg"/>
+# Thailand <WishWidget country="TH" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/thailand-isle-beach-sumit-chinchane-jWKk-0ZBUyg-unsplash.jpg"/>
 
 ![Thailand - Photo by Sumit Chinchane on Unsplash](../../../images/travel/thailand/thailand-isle-beach-sumit-chinchane-jWKk-0ZBUyg-unsplash.jpg)
 
 
-Thailand is a huge country full of unexpected experiences. It is the most popular destination in Southeast Asia. People goes there for many reasons, a flourish economy,stuning landscapes, tropical beaches, nice people or excellent food. It is a very easy country to move around. Transport infrastures are pretty good and modern and they have a long well established tourist industry. This makes the traveller feel like at home despite of the language, the ancestral traditions or the exotic countenance of their people. They call themselfs _The Country of Smiles_ and they are not wrong. Since they are children they are taught to smile nicely by parents, uncles and friends. So be ready to enjoy a unique experience that many visitore will never forget.
+Thailand is a huge country full of unexpected experiences. It is the most popular destination in Southeast Asia. People go there for many reasons, a flourish economy, stunning landscapes, tropical beaches, nice people or excellent food. It is a very easy country to move around. Transport infrastructures are pretty good and modern, and they have a long well established tourist industry. This makes the traveller feel like at home despite the language, the ancestral traditions or the exotic countenance of their people. They call themself _The Country of Smiles_, and they are not wrong. Since they are children they are taught to smile nicely by parents, uncles and friends. So be ready to enjoy a unique experience that many visitors will never forget.
 
 <ShareTripWidget user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1" trip-name="Wish To Go Trip to Thailand" icon-url="/images/blogger.png"/>
 
@@ -41,7 +41,7 @@ Thailand is a huge country full of unexpected experiences. It is the most popula
 
 	- [Pai](/travel/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH"	city="Pai"	picture="https://wikitravel.org/upload/shared//thumb/e/ec/Huai_Nam_Dang_National_Park.jpg/300px-Huai_Nam_Dang_National_Park.jpg"></WishWidget>
 
-- The South and the islands
+- The South and the islands.
 
 - The East and the quiet beaches
 

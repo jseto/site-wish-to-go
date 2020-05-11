@@ -69,7 +69,7 @@ To complement the heart _widget_, you have the trip planner _widget_. The trip p
 
 ## Where Can I See a Travel Blog with a Travel Bucket Wish List?
 
-You can see how **Wish To Go** works in our [blog demo](https://wish-to-go.com/blog). 
+You can see how **Wish To Go** works in our [blog demo](/travel/). 
 
 ## Further Reading
 

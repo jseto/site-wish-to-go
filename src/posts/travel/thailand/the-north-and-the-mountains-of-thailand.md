@@ -19,7 +19,7 @@ This National Park in Chiang Mai province, known as the Roof of Thailand, covers
 Doi Inthanon is named after King Inthawichayanon (also called Inthanon), one of the last kings of Chiang Mai (he reigned at the end of the 19th century). This environmentally conscious king was no stranger to the importance of preserving this natural legacy for future generations, and in honor of all the actions he took to preserve this ecosystem, the park was renamed. Respecting his wish, his mortal remains rest today in the park's grounds.
 
 ## Chiang Mai
-<WishWidget	country="TH"	city="Chiang Mai"	picture="https://wish-to-go.com/images/for-wish-to-go/travel/thailand/silver-temple-chiang-mai-thailand-peter-borter-Hz-N7tCgCUo-unsplash.jpg" label/>
+<WishWidget	country="TH"	city="Chiang Mai"	picture="https://wish-to-go.com/images/for-wish-to-go/thailand/silver-temple-chiang-mai-thailand-peter-borter-Hz-N7tCgCUo-unsplash.jpg" label/>
 
 ![Chiang Mai - Photo by Peter Borter](../../../images/travel/thailand/silver-temple-chiang-mai-thailand-peter-borter-Hz-N7tCgCUo-unsplash.jpg)
 
@@ -29,7 +29,7 @@ The city of Chiang Mai is very well-prepared for the tourist, nobody who is prou
 
 ## Other places to visit
 
-- Doi Intanon <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon" picture="/home/jseto/programing-projects/web/tsa/site-wish-to-go/static/images/for-wish-to-go/travel/thailand/doi-intanon-thailand-Naphamethinidon,_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg/>
+- Doi Intanon <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon" picture="/home/jseto/programing-projects/web/tsa/site-wish-to-go/static/images/for-wish-to-go/thailand/doi-intanon-thailand-Naphamethinidon,_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg/>
 
 - Doi Suthep <WishWidget country="TH"	city="Chiang Mai"	activity="Doi Suthep"></WishWidget>
 
