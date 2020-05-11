@@ -35,7 +35,6 @@ export const ShareTripWidget = ( props ) => (
 )
 
 function propsToString( props: {} ) {
-	props['userId'] && Object.keys( props ).forEach( prop => console.log( prop, props[prop]))
 	return Object.keys( props ).map( 
 		item => `${ camelToSnakeCase( item ) }="${ props[ item ] }"`
 	).join(' ')

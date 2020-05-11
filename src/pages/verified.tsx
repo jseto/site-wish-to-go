@@ -19,18 +19,20 @@ const Verified = ({ location }: VerifiedProps ) => {
       plan: params.get( 'plan' )
     }
   }
-	
-	fetch( 'https://api.convertkit.com/v3/forms/1374007/subscribe', {
-		method: 'POST',
-		headers: {
-			'Accept': 'application/json',
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify( convertKitParams )
+  
+  React.useEffect( () => {
+    fetch( 'https://api.convertkit.com/v3/forms/1374007/subscribe', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify( convertKitParams )
 
-  })
-  .then( () => window.location.href = '/plans/subscription/subscribed/' )
-  .catch( error => console.log( error ) )
+    })
+    .then( () => window.location.href = '/plans/subscription/subscribed/' )
+    .catch( error => console.log( error ) )
+  }, [])
 
 	return(
 		<Layout>
