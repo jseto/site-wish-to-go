@@ -37,7 +37,7 @@ Madrid and Barcelona are the cities that receive most tourists each year. The Ro
 
 	- [Museu Dalí](/travel/spain/barcelona/#museu-dali)	<WishWidget	country="ES" city="Barcelona"	activity="Museu Dalí"></WishWidget>
 
-- [Bilbao](/travel/spain/bilbao) <WishWidget country="ES" city="Bilbao" picture="https://images.unsplash.com/photo-1554212264-aae064407bd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" post="/travel/spain/bilbao"></WishWidget>
+- [Bilbao](/travel/spain/bilbao) <WishWidget country="ES" city="Bilbao" picture="https://wish-to-go.com/images/for-wish-to-go/spain/bilbao-ria-niclas-dehmel-bAfk_mr8VU4-unsplash.jpg"></WishWidget>
 
 	- [Alhóndiga](/travel/spain/bilbao/#alhondiga) <WishWidget country="ES" city="Bilbao" activity="Alhondiga"></WishWidget>
 
@@ -53,9 +53,9 @@ Madrid and Barcelona are the cities that receive most tourists each year. The Ro
 
 	- [Plaza Nueva](/travel/spain/bilbao/#plaza-nueva) <WishWidget country="ES" city="Bilbao" activity="Plaza Nueva"></WishWidget>
 
-- [San Sebastian](/travel/spain/san-sebastian) <WishWidget	country="ES" city="San Sebastian"	picture="https://wikitravel.org/upload/en/thumb/a/a9/San_Sebastian.JPG/320px-San_Sebastian.JPG"></WishWidget>
+- [San Sebastian](/travel/spain/san-sebastian) <WishWidget	country="ES" city="San Sebastian"	picture="https://wish-to-go.com/images/for-wish-to-go/spain/la-concha-from-igueldo-san-sebastian-spain-raul-cacho-oses-wxem-o1RMWs-unsplash.jpg"></WishWidget>
 
-	- [La Concha](/travel/spain/san-sebastian/#the-beach)	<WishWidget	country="ES" city="San Sebastian"	activity="La Concha" picture="https://wikitravel.org/upload/en/thumb/1/19/SanSebastian_PaseoDeLaConcha.jpg/320px-SanSebastian_PaseoDeLaConcha.jpg"></WishWidget>
+	- [La Concha](/travel/spain/san-sebastian/#the-beach)	<WishWidget	country="ES" city="San Sebastian"	activity="La Concha" picture="https://wish-to-go.com/images/for-wish-to-go/spain/la-concha-donostia-kylie-paz-P8YcW1vvjpE-unsplash.jpg"></WishWidget>
 
 	- [Ondarreta](/travel/spain/san-sebastian/#the-beach) <WishWidget	country="ES" city="San Sebastian"	activity="Ondarreta"></WishWidget>
 

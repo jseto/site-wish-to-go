@@ -29,7 +29,7 @@ The city of Chiang Mai is very well-prepared for the tourist, nobody who is prou
 
 ## Other places to visit
 
-- Doi Intanon <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon" picture="/home/jseto/programing-projects/web/tsa/site-wish-to-go/static/images/for-wish-to-go/thailand/doi-intanon-thailand-Naphamethinidon,_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg/>
+- Doi Intanon <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/doi-intanon-thailand-Naphamethinidon,_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg"/>
 
 - Doi Suthep <WishWidget country="TH"	city="Chiang Mai"	activity="Doi Suthep"></WishWidget>
 

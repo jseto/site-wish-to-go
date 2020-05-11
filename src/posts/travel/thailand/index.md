@@ -23,9 +23,9 @@ Thailand is a huge country full of unexpected experiences. It is the most popula
 
 ## Popular Destinations
 
-- [Bangkok](/travel/thailand/bangkok) <WishWidget	country="TH" city="Bangkok" picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
+- [Bangkok](/travel/thailand/bangkok) <WishWidget	country="TH" city="Bangkok" picture="https://wish-to-go.com/images/for-wish-to-go/thailand/bangkok-yaowarat-florian-wehde--y3sidWvDxg-unsplash.jpg"></WishWidget>
 
-	- [Grand Palace and Emerald Buddha](https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80) <WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://images.unsplash.com/photo-1508009603885-50cf7c579365?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80"></WishWidget>
+	- [Grand Palace and Emerald Buddha](/travel/thailand/bangkok/#grand-palace-and-emerald-buddha) <WishWidget	country="TH" city="Bangkok" activity="Grand Palace"	picture="https://wish-to-go.com/images/for-wish-to-go/thailand/grand-palace-bangkok-thailand.jpg"></WishWidget>
 
 	- [Wat Pho](/travel/thailand/bangkok/#wat-pho) <WishWidget	country="TH" city="Bangkok" activity="Wat Pho"></WishWidget>
 
@@ -33,7 +33,7 @@ Thailand is a huge country full of unexpected experiences. It is the most popula
 
 - [The North and the mountains](/travel/thailand/the-north-and-the-mountains-of-thailand)
 
-	- [Chiang Mai](/travel/thailand/the-north-and-the-mountains-of-thailand/#chiang-mai) <WishWidget	country="TH"	city="Chiang Mai"	picture="https://wikitravel.org/upload/shared//4/46/Chiang_Mai_Banner.jpg"></WishWidget>
+	- [Chiang Mai](/travel/thailand/the-north-and-the-mountains-of-thailand/#chiang-mai) <WishWidget	country="TH"	city="Chiang Mai"	picture="https://wish-to-go.com/images/for-wish-to-go/thailand/silver-temple-chiang-mai-thailand-peter-borter-Hz-N7tCgCUo-unsplash.jpg"></WishWidget>
 
 	- [Doi Intanon](/travel/thailand/the-north-and-the-mountains-of-thailand/#other-places-to-visit) <WishWidget	country="TH" city="Chiang Mai" activity="Doi Intanon"></WishWidget>
 
