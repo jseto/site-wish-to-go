@@ -2,6 +2,7 @@ import * as React from "react"
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go";
 import GoogleIcon from "@fortawesome/fontawesome-free/svgs/brands/google.svg";
 import { Link } from "gatsby";
+import { siteMetadata } from "../../gatsby-config.js"
 
 interface UserCredential {
 	authId: string;
@@ -173,7 +174,7 @@ export class Subscribe extends React.Component<SubscribeProps, SubscribeState> {
 			password: password,
 			blogDomain: blogDomain,
 			name: name,
-			verificationLink: 'https://wish-to-go.com' + this.getVerifiedURL()
+			verificationLink: siteMetadata.siteUrl + this.getVerifiedURL()
 		}).then( () => {
 			this.setState({ error: '' });
 			window.location.href = `/plans/subscription/verification-email-sent/`

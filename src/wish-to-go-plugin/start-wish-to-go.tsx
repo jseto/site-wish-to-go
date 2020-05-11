@@ -1,6 +1,7 @@
 import * as React from "react"
 import { WishCounterWidget } from "./wtg-widgets"
 import { ScriptLoader } from "../components/script-loader"
+import { siteMetadata } from "../../gatsby-config.js"
 
 interface StartWishToGoProps {
 	noCounter?: boolean;
@@ -17,9 +18,11 @@ export class StartWishToGo extends React.Component< StartWishToGoProps > {
   }
 
 	render() {
+		const scriptUrl = siteMetadata.siteUrl + '/wish-to-go.main.js'
+
 		return (
 			<ScriptLoader 
-				script="https://wish-to-go.com/wish-to-go.main.js"
+				script={ scriptUrl }
 				initScript={ ()=> this.initScript() }
 			>
 				{ !this.props.noCounter && <WishCounterWidget />	}
