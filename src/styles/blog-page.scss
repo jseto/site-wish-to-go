@@ -15,6 +15,36 @@
 		h1 {
 			margin-bottom: 0em;
 		}
+		
+		h3 {
+			display: inline-block;
+			margin-top: 2em;
+			margin-bottom: 1.5em;
+			~span {
+				padding-bottom: 0.2em;
+				vertical-align: text-bottom;
+			}
+		}
+
+		li {
+			margin-top: 2em;
+			margin-bottom: 1.5em;
+
+			> p { 
+				.gatsby-resp-image-wrapper {
+					margin-top: 1em;
+				}
+
+				> strong {
+					font-size: 1.2em;
+				}
+			}
+		}
+
+		.gatsby-resp-image-wrapper {
+			// margin-top: 1em;
+			margin-bottom: 1em;
+		}
 	}
 
 	.side-bar {

@@ -16,7 +16,9 @@ className: blog-page
 
 Cordoba is an incredible city in the autonomous community of Andalusia, it was the largest capital in Europe, surpassing Paris and Rome in its academic, architectural and artistic achievements. The historic centre of Cordoba, due to its architectural integrity and beauty, the result of the aggregation of several styles, is part of the UNESCO World Heritage Sites.
 
-## The Mezquita
+## What to see
+
+### The Mezquita
 <WishWidget country="ES" city="Cordoba" activity="The Mezquita" picture="https://wish-to-go.com/images/for-wish-to-go/spain/mezquita_arches_cordoba.jpg" label/>
 
 ![The famous arches of the Mezquita](../../../images/travel/spain/mezquita_arches_cordoba.jpg)

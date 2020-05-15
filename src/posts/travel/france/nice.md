@@ -40,11 +40,12 @@ Nice is also known for several museums, entry to most of which (as of July 2008)
 
 	Charming collection of paintings, drawings and sculptures in 17th century Genoese villa
 
-### The Beaches <WishWidget country="FR" city="Nice" activity="Beaches" picture="https://wish-to-go.com/images/for-wish-to-go/france/nice-walkway-seaside-jp-valery-AS8r3yjdMmc-unsplash.jpg"></WishWidget>
-
-![The Beaches - Photo by Jp Valery on Unsplash](../../../images/travel/france/nice-walkway-seaside-jp-valery-AS8r3yjdMmc-unsplash.jpg)
+### The Beaches 
+<WishWidget country="FR" city="Nice" activity="Beaches" picture="https://wish-to-go.com/images/for-wish-to-go/france/nice-walkway-seaside-jp-valery-AS8r3yjdMmc-unsplash.jpg"></WishWidget>
 
 If you go to Nice for bathing or general lounging on the beach, you may wish to think again. The beaches of Nice consist entirely of large flat stones (_gallets_).
+
+![The Beaches - Photo by Jp Valery on Unsplash](../../../images/travel/france/nice-walkway-seaside-jp-valery-AS8r3yjdMmc-unsplash.jpg)
 
 Much nicer beaches exist in other towns close by, such as **Villefranche-sur-Mer** <WishWidget country="FR" city="Nice" activity="Villefranche-sur-Mer"></WishWidget>, **Antibes** and **Cannes** <WishWidget country="FR" city="Nice" activity="Cannes"></WishWidget>, which are far more sandy. _Villefranche_ is a particularly preferred beach choice, especially if travelling with children, only twenty minutes away by the TAM 100 bus.
 
