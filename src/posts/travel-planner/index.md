@@ -11,6 +11,8 @@ category: index
 
 <Columns>
 
+<TravelPlanWidget blog="/travel/"/>
+
 <div>
 
 ## How it works?
@@ -26,7 +28,5 @@ in its blog entries, we recommend you to ask the blog owner to implement
 browsing our [travel blog demo](/blog).
 
 </div>
-
-<TravelPlanWidget blog="/travel/"/>
 
 </Columns>

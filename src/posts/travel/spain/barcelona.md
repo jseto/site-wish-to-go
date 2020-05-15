@@ -19,8 +19,7 @@ Barcelona is always a city worth visiting and touring. If this is the first time
 
 ## Things to do
 
-### La Sagrada Familia
-<WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wish-to-go.com/images/for-wish-to-go/spain/sagrada-familia-counter-barcelona-isaac-CmLrmQNYtII-unsplash.jpg" label/>
+### La Sagrada Familia <WishWidget	country="ES"	city="Barcelona"	activity="La Sagrada Familia" picture="https://wish-to-go.com/images/for-wish-to-go/spain/sagrada-familia-counter-barcelona-isaac-CmLrmQNYtII-unsplash.jpg" label/>
 
 ![La Sagrada Familia - Photo by Isaac](../../../images/travel/spain/sagrada-familia-counter-barcelona-isaac-CmLrmQNYtII-unsplash.jpg)
 

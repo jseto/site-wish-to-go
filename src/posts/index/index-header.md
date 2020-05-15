@@ -1,20 +1,25 @@
 ---
-status: unpublished
+status: page section
 ---
 
 # The Travel Blog Plugin
 
-<!-- ## Get your Readers Email. Build Uplifting Connections. -->
+<!-- ## Give your Readers an Awesome Freebie 
 
-## Give your Readers an Awesome Freebie 
+### Get Their Email to Build Uplifting Connections -->
 
-### Get Their Email to Build Uplifting Connections
+## Develop Strong Relationship with your Readers
 
-Share your personal trip itineraries with your readers. Let them bookmark destinations in your posts. Give them a Travel Planner to organize their trips based in your content.
+### Give them an Awesome Freebie 
+
+Get readers' email without friction. Boost travel affiliate marketing conversion. Increase readers' engagement.
+
+<!-- 
+Share your personal trip itineraries with your readers. Let them bookmark destinations in your posts. Give them a Travel Planner to organize their trips based in your content. -->
 
 [Take a Tour](/travel/)
 
-[Get it for Free](/subscription/?plan=backpacker)
+[Get it for Free](/plans/subscription/backpacker/)
 
 ## Your Readers will Love
 
