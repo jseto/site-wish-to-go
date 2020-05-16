@@ -47,8 +47,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "dev-local-plugin": "GATSBY_LOCAL=true gatsby develop",
-    "dev-local-data": "npm run --prefix ../../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
+    "dev-use-local-plugin": "GATSBY_LOCAL=true gatsby develop",
+    "dev-start-local-plugin-data": "npm run --prefix ../../wish-to-go dev-local & GATSBY_LOCAL=true gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
