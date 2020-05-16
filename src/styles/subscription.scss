@@ -82,4 +82,10 @@
 		width: 75%;
 		fill: $light-blue;
 	}
+
+	@media screen and ( max-width: $tablet - 1px ) {
+		.column{
+			padding: 1em 4%;
+		}
+	}
 }

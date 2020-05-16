@@ -39,6 +39,19 @@
 				font-weight: 200;
 			// }
 		}
+
+		@media screen and ( max-width: $tablet - 1px ) {
+			padding: 3em 3%;
+
+			h1 {
+				margin-bottom: 1em;
+			}
+
+			h2, h3 {
+				text-align: left;
+			}
+		}
+	
 	}
 
 	.markdown-block {

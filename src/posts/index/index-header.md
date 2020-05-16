@@ -8,7 +8,9 @@ status: page section
 
 ### Get Their Email to Build Uplifting Connections -->
 
-## Develop Strong Relationship with your Readers
+<!-- ## Develop Strong Relationship with your Readers -->
+
+## Build Uplifting Connections with your Readers
 
 ### Give them an Awesome Freebie 
 

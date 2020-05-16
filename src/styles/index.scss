@@ -16,8 +16,6 @@
 		font-size: 2em;
 	}
 
-// @media screen and ( max-width: $tablet - 1px )
-
 	p {
 		font-weight: 100;
 		font-size: 1.5em;
@@ -34,6 +32,26 @@
 
 	p img {
 		width: 200px;
+	}
+
+	@media screen and ( max-width: $tablet - 1px ) {
+		padding: 1em 2%;
+
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 2rem;
+		}
+
+		h3 {
+			font-size: 1.8rem;
+		}
+
+		p {
+			font-size: 1.1em;
+		}
 	}
 
 }
@@ -54,6 +72,10 @@
 	.readers-benefit {
 		.content {
 			@extend %inner-content;
+
+			h2 {
+				margin-top: 3em;
+			}
 		}
 		
 		padding: 3em 10%;
@@ -63,6 +85,9 @@
 			max-width: 1000px;
 			margin-left: auto;
 			margin-right: auto;
+			// border: solid 5px $light-blue;
+			// // background-color: lightgray;
+			// border-radius: 10px;
 		}
 
 		img {
@@ -71,15 +96,40 @@
 		}
 		
 		h3 {
-			text-align: center;
+			text-align: left;
 			color: $soft-blue;
 			font-variant: all-small-caps;
 			font-size: 2em;
 		}
 
 		p {
-			text-align: center;
+			// text-align: center;
 			color: gray;
+		}
+
+		@media screen and ( max-width: $tablet - 1px ) {
+			padding: 1em 2%;
+
+			.content {
+				h2 {
+					margin-top: 2em;
+				}
+			}
+
+			h3 {
+				font-size: 1.5em;
+			}
+
+			img {
+				margin-left: -6%;
+				margin-right: -6%;
+				max-width: unset;
+				width: unset;
+			}
+
+			p {
+				text-align: left;
+			}
 		}
 	}
 
@@ -90,7 +140,12 @@
 		
 		background-color: $soft-blue;
 		padding: 3em 10% 3.5em 10%;
+		margin-top: 2em;
 		
+		@media screen and ( max-width: $tablet - 1px ) {
+			padding: 3em 3% 3.5em 3%;
+		}
+
 		h2 {
 			text-align: center;
 			color: $white;
@@ -104,11 +159,19 @@
 
 			&:not(:last-child) {
 				margin-bottom: 5em;
-			} 	
+			} 
 			
 			p {
 				padding: 1em 0;
 				font-size: 1.2em;
+				text-align: center;
+			}
+
+			@media screen and ( max-width: $tablet - 1px ) {
+				margin: 1em;
+				&:not(:last-child) {
+					margin-bottom: 2em;
+				} 
 			}
 		}
 		
@@ -116,7 +179,12 @@
 			text-align: center;
 			font-weight: 100;
 			font-size: 1.5em;
-			// margin: 4em 0;
+			@media screen and ( max-width: $tablet - 1px ) {
+				font-size: 1.1em;
+				:not(:last-child) {
+					text-align: left;
+				}
+			}
 		}
 
 		a {
