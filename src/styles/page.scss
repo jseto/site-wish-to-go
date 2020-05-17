@@ -41,10 +41,14 @@
 		}
 
 		@media screen and ( max-width: $tablet - 1px ) {
-			padding: 3em 3%;
+			padding: 3em $page-padding-mobile;
 
 			h1 {
 				margin-bottom: 1em;
+				margin-top: -2em;
+				margin-left: -($page-padding-mobile);
+				margin-right: -($page-padding-mobile);
+				padding: 3em $page-padding-mobile 2em $page-padding-mobile;
 			}
 
 			h2, h3 {
