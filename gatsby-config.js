@@ -1,18 +1,17 @@
 if ( process.env ) {
 	if( process.env.GATSBY_LOCAL ) {
     console.info( '\x1b[33m', '-----> Running with LOCAL wish-to-go bundle\n' );
-    var localSiteUrl = 'http://localhost:8080'
+    var localScriptUrl = 'http://localhost:8080'
 	}
 }
-
-const siteUrl = localSiteUrl || `https://wish-to-go.com`
 
 module.exports = {
   siteMetadata: {
     title: `Wish to go`,
     description: `Improve visitor engagement in your travel blog`,
 		author: `@wish_to_go`,
-		siteUrl: siteUrl,
+    siteUrl: `https://wish-to-go.com`,
+    scriptUrl: localScriptUrl || `https://cdn.wish-to-go.com`,
     lang: 'en',
     navbar: {
       logo: {

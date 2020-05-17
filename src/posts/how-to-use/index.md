@@ -33,7 +33,7 @@ In order the widgets to work, you should load the JavaScript code in your page.
 The JavaScript code is loaded by inserting this 
 
 ```html
-<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
+<script src="https://cdn.wish-to-go.com/wish-to-go.main.js"></script>
 ```
 
 tag at the bottom of your **HTML** document but still inside the `<body>` tag.
@@ -48,7 +48,7 @@ A very minimalistic webpage loading a **WishWidget** and the needed script is sh
 		This is the entry body with a Wish To Go Heart.
 		<WishWidget country="TH"></WishWidget>
 	</p>
-	<script src="https://wish-to-go.com/wish-to-go.main.js"></script>
+	<script src="https://cdn.wish-to-go.com/wish-to-go.main.js"></script>
 </body>
 </html>
 ```

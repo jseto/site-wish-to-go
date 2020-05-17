@@ -18,7 +18,7 @@ export class StartWishToGo extends React.Component< StartWishToGoProps > {
   }
 
 	render() {
-		const scriptUrl = siteMetadata.siteUrl + '/wish-to-go.main.js'
+		const scriptUrl = siteMetadata.scriptUrl + '/wish-to-go.main.js'
 
 		return (
 			<ScriptLoader 

@@ -98,9 +98,7 @@ query Page( $id: String ) {
 // number 
 // language-text
 // page
-// index
-// index-header
-// readers-benefit
+// index index-header readers-benefit book-demo
 // blog-page
 // blog-entry-card
 // blog-main
