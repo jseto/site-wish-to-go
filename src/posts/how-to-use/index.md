@@ -40,7 +40,7 @@ tag at the bottom of your **HTML** document but still inside the `<body>` tag.
 
 A very minimalistic webpage loading a **WishWidget** and the needed script is shown below:
 
-```html{numberLines: false}{8}
+```html
 <html>
 <body>
 	<h1>My Entry Title</h1>

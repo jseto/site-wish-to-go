@@ -47,6 +47,8 @@ module.exports = {
       secondColumnItems: [
         { content: 'Travel Blogging Tips', href: '/travel-blogging/' },
         { content: '' },
+        { content: 'Contact', href: '/contact/' },
+        { content: '' },
         { content: 'Privacy Policy', href: '/legal/privacy-policy/' },
         { content: 'Terms and Conditions', href: '/legal/terms/' },
       ],
@@ -54,7 +56,7 @@ module.exports = {
         facebook: 'https://www.facebook.com/wishtogotravel',
         twitter: 'https://twitter.com/wish_to_go',
         instagram: 'https://instagram.com/wish_to_go',
-        email: ''
+        email: '/contact/'
       },
       madeWithLove: 'Made width ❤️ in Barcelona and Bangkok'
     }
