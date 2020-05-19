@@ -21,12 +21,15 @@ export class StartWishToGo extends React.Component< StartWishToGoProps > {
 		const scriptUrl = siteMetadata.scriptUrl + '/wish-to-go.main.js'
 
 		return (
-			<ScriptLoader 
-				script={ scriptUrl }
-				initScript={ ()=> this.initScript() }
-			>
+			<>
+				<ScriptLoader	initScript={ ()=> this.initScript() }>
+				
+					<script type="text/javascript" src={ scriptUrl }/>
+				
+				</ScriptLoader>
+
 				{ !this.props.noCounter && <WishCounterWidget />	}
-			</ScriptLoader>
+			</>
 		)
 	}
 }
