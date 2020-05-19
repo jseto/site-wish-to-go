@@ -24,14 +24,16 @@ export class ContactForm extends Component<ContactFormProps, ContactFormState> {
 		const { submitted, submitting } = this.state
 
 		return (
-			<>
+			<div>
 				{ !submitted &&
 					<WaitingSpinner waiting={ submitting }>
 						<form 
+							className="form narrow center"
 							action="https://formspree.io/mgenoaqo" 
 							method="POST"
 							onSubmit={ event => this.handleSubmit( event )}
 						>
+							<h2>How can I help you?</h2>
 							<div className="field">
 								<div className="control">
 									<input className="input" placeholder="Enter your name" type="text" name="name"/>
@@ -39,17 +41,17 @@ export class ContactForm extends Component<ContactFormProps, ContactFormState> {
 							</div>
 							<div className="field">
 								<div className="control">
-									<input className="input" placeholder="Enter your email" type="email" name="email"/>
+									<input className="input" placeholder="Enter your email" type="email" name="email" required/>
 								</div>
 							</div>
 							<div className="field">
 								<div className="control">
-									<textarea className="textarea" placeholder="Explain how we can help you" name="text"/>
+									<textarea className="textarea" placeholder="Explain how we can help you" name="text" required/>
 								</div>
 							</div>
 							<div className="field">
 								<div className="control">
-									<button className="button is-primary" type="submit">Send</button>
+									<button className="button is-primary is-fullwidth" type="submit">Send</button>
 								</div>
 							</div>
 						</form>
@@ -59,7 +61,7 @@ export class ContactForm extends Component<ContactFormProps, ContactFormState> {
 				{ submitted &&
 					this.props.children
 				}
-			</>
+			</div>
 		)
 	}
 

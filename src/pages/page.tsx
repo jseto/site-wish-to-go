@@ -11,6 +11,7 @@ import { WishWidget, ShareTripWidget, TravelPlanWidget, WishCounterWidget } from
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 import { CustomCategoryEntries } from "../custom-components/custom-category-entries"
 import { Columns } from "../components/columns"
+import { PopupForm } from "../custom-components/popup-form"
 
 interface PageProps {
   data: PageQuery
@@ -37,7 +38,7 @@ class Page extends React.Component<PageProps> {
           components={{
             CategoryEntries, ImportMarkdown, Columns,
             WishWidget, TravelPlanWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
-            CustomCategoryEntries
+            CustomCategoryEntries, PopupForm
           }}
         >
 

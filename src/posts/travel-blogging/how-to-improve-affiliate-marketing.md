@@ -50,7 +50,7 @@ The most evident happens when the cookie expires. An expired cookie doesn't enti
 
 The later case looks fair, because the _advertiser_ respects your effort to divert traffic to him, giving you a grace period. But, what happens if your reader visits another blog that implements an affiliate program with the same _advertiser_? Bad news. The majority of programs use a last cookie grants the commission. This is so because it is difficult to stablish a shared commission scheme. You can always be on the bright side of life and think that you will be the last!
 
-![How to improve travel booking affiliate benefits - Photo by Hal Gatewood on Unsplash](../../images/optimize-affiliation-programs.jpg)
+![How to improve travel booking affiliate benefits - Photo by Hal Gatewood on Unsplash](../../images/travel-blogging/optimize-affiliation-programs.jpg)
 
 ## How to Optimize Travel Affiliation Conversion Rate?
 
@@ -90,9 +90,9 @@ You may think that it is impossible to know when your readers are ready to trave
 
 - **Using a tool to recognize readers intention**.
 
-  A tool in the form of a _travel blog plugin_ or a piece of code that you insert in your pages can help to find when your reader are willing to travel. You can use [Wish To Go](/subscription/backpacker/) to guess when your readers are ready to travel. This plugin also offers affiliate links for flights, hotels and tours only when they have decided to book. **Wish To Go** is a _free tool_ that includes a heart widget. The readers can click on the heart in the same way they like pictures on _Instagram_. You can insert this widget in any part of your post and it will, when clicked, add the destination in your post to a kind of electronic _travel bucket list_. **When your readers are ready to travel**, they can use the included travel planner widget to start planning the trip from the bucket list that they created some time ago by clicking on the hearts. When your visitors start planning, that means that they are ready to travel. As I mentioned above, **the plugin allows booking flights, hotels and tours from the data in the trip planner**. Therefore, the affiliate link are _relevant_ to your visitor and appear just when she/he is ready to buy. Moreover, the plugin lets you to compile lists of readers that are planning a trip by destination and email. So then, you can launch pertinent and focussed mailing campaigns that will not end in the spam folder.
+  A tool in the form of a _travel blog plugin_ or a piece of code that you insert in your pages can help to find when your reader are willing to travel. You can use [Wish To Go](/plans/subscription/backpacker/) to guess when your readers are ready to travel. This plugin also offers affiliate links for flights, hotels and tours only when they have decided to book. **Wish To Go** is a _free tool_ that includes a heart widget. The readers can click on the heart in the same way they like pictures on _Instagram_. You can insert this widget in any part of your post and it will, when clicked, add the destination in your post to a kind of electronic _travel bucket list_. **When your readers are ready to travel**, they can use the included travel planner widget to start planning the trip from the bucket list that they created some time ago by clicking on the hearts. When your visitors start planning, that means that they are ready to travel. As I mentioned above, **the plugin allows booking flights, hotels and tours from the data in the trip planner**. Therefore, the affiliate link are _relevant_ to your visitor and appear just when she/he is ready to buy. Moreover, the plugin lets you to compile lists of readers that are planning a trip by destination and email. So then, you can launch pertinent and focussed mailing campaigns that will not end in the spam folder.
 
-  You can try the plugin for free [here](/subscription/backpacker/).
+  You can try the plugin for free [here](/plans/subscription/backpacker/).
 
 ### 4. Choose Few Affiliate Programs
 
@@ -100,7 +100,7 @@ There are plenty of companies offering affiliate programs out there but you shou
 
 By doing that, you are putting your readers on stress. Believe me. Our brains get stressed when they have to choose. An interesting experiment based on the ideas of the book [Paradox of Choice](https://amzn.to/2TToRHP), can be found [here](https://neilpatel.com/blog/too-many-choices/).
 
-Despite stressing your customer's brain, showing too much affiliate links or widgets will lead to the same problems of [bloating your pages with adverts](#2._do_not_bloat_your_pages_with_adverts).
+Despite stressing your customer's brain, showing too much affiliate links or widgets will lead to the same problems of [bloating your pages with adverts](#2-do-not-bloat-your-pages-with-adverts).
 
 Choose one program for each area and have one as a backup. You can have one for booking flights, other for hotels, for tours, etc. But choose the ones with proven reputation. You don't want your readers book a flight from your travel blog and find the flight they bought does not exist. And don't forget that the best affiliate for a travel blog is not the best for a generic blog.
 
@@ -116,14 +116,20 @@ I'm sure that you have realize that the book and the plugin links are affiliate 
 
 Affiliate marketing can be a good way to monetize your travel blog. If you follow the guidelines above, you have half of the way done. Now you should experiment by yourself and try to figure out what your readers like and how they buy. It is time for you!
 
-Here is the [YouTube channel talking about SEO](https://www.youtube.com/channel/UCytOqtKYpACcWMD14UjhSeQ) that I talk above.
+Here is the YouTube channel talking about SEO that I talk about above.
+
+<div style={{ textAlign: 'center'}}>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iCzUs1f3o-M?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Further Reading
 
 The article below highlights the benefits of instaling a **Destination Wish List** _plugin_ in your blog, in special how it can help to boost traffic site.
 
-[A Travel Bucket List for your Travel Site](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
+[A Travel Bucket List for your Travel Site](/travel-blogging/destination-wish-list-for-your-travel-blog/)
 
 The following link relates the story of Joanna, an eager travel blog reader. 
 
-[Let Joanna fall in Love with Your Travel Blog](/stories/joanna/)
+[Let Joanna fall in Love with Your Travel Blog](/travel-blogging/joanna/)
+
+<PopupForm />

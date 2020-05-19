@@ -12,7 +12,7 @@ category: plan
 
 ### Tailored itineraries for your readers and customers
 
-#### <sup>€</sup>198.99<sup>/mo.</sup>
+#### <sup>€</sup>98.95<sup>/mo.</sup>
 
  *_billed annually_ <br/> _Saves 2 months_
 

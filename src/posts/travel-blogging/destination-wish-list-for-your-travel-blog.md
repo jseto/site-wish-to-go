@@ -45,7 +45,7 @@ Those companies use wish list because they know that it's a good way to increase
 
 Another advantage of using a wish list is that you can get your reader's email without significant friction, that is, you don't need to insist to them to subscribe. Moreover, to have their email, you will know where they are planning to go in their next holidays. Therefore, you can recommend relevant articles in your blog of make offers of products or packages that you have agreed with your providers.
 
-You can enjoy all of these advantages for ***free*** with the **Wish To Go** [_Backpacker_ plan](/plans/).
+You can enjoy all of these advantages for ***free*** with the **Wish To Go** [_Backpacker_ plan](/plans/subscription/backpacker).
 
 ## How Can a Travel Bucket List Improve Monetization of Your Travel Blog?
 
@@ -57,7 +57,7 @@ This option is only available in the **Wish To Go** [premium plans](/plans/).
 
 ## What If I'm Using My Travel Blog to Attract Customers to My Travel Agency?
 
-**Wish To Go** offers a solution for you as well. The [_Globetrotter_ plan](/plans/) has been designed specially for your case. When you subscribe to the _Globetrotter Travel Agency_ plan, the trip planner will send you a copy of your customers travel plan instead of proposing them to book through affiliate links. In this way you can advise your customers about the best package for them.
+**Wish To Go** offers a solution for you as well. The [_Globetrotter_ plan](/plans/subscription/globetrotter) has been designed specially for your case. When you subscribe to the _Globetrotter Travel Agency_ plan, the trip planner will send you a copy of your customers travel plan instead of proposing them to book through affiliate links. In this way you can advise your customers about the best package for them.
 
 ## How Can I Implement a Destination Wish List in My Travel Blog?
 
@@ -73,6 +73,8 @@ You can see how **Wish To Go** works in our [blog demo](/travel/).
 
 ## Further Reading
 
-A deep approach on how to setup your travel blog strategies to [increase your affiliate links](/travel-blog-monetization/how-to-improve-affiliate-marketing/) conversion rate.
+A deep approach on how to setup your travel blog strategies to [increase your affiliate links](/travel-blogging/how-to-improve-affiliate-marketing/) conversion rate.
 
-If you want to evade a little bit, read the adventures of an [avid travel blog follower](/stories/joanna/).
+If you want to evade a little bit, read the adventures of an [avid travel blog follower](/travel-blogging/joanna/).
+
+<PopupForm />

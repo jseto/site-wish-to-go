@@ -55,7 +55,12 @@
 				text-align: left;
 			}
 		}
-	
+
+		&.contact {
+			p {
+				text-align: center;
+			}
+		}
 	}
 
 	.markdown-block {
@@ -91,5 +96,4 @@
 	.footnotes ol li {
 		margin-bottom: 1em
 	}
-
 }

@@ -59,4 +59,6 @@ Once Joanna finished her plan, she can book flights, hotels and tours from the t
 
 ## Futher Reading
 
-You can learn more about the strategies that made Joanna fall in love in this article about [5 ways to get the most from affiliate marketing techniques](/travel-blog-monetization/how-to-improve-affiliate-marketing/) or this one descriving more in-depth [why a travel bucket list can increase your visitor's audience](/travel-blog-monetization/destination-wish-list-for-your-travel-blog/)
+You can learn more about the strategies that made Joanna fall in love in this article about [5 ways to get the most from affiliate marketing techniques](/travel-blogging/how-to-improve-affiliate-marketing/) or this one descriving more in-depth [why a travel bucket list can increase your visitor's audience](/travel-blogging/destination-wish-list-for-your-travel-blog/)
+
+<PopupForm />

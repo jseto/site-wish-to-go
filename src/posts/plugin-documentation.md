@@ -4,7 +4,9 @@ className: page
 
 <StartWishToGo noCounter={true}/>
 
-# How To Use Wish To Go
+# Plugin Documentation
+
+## How To Use Wish To Go Plugin
 
 > Click the link for an installation guide of the [**Wordpress plugin** for the Travel Planner](https://wordpress.org/plugins/wish-to-go/)
 
@@ -434,7 +436,7 @@ will produce
 > <ShareTripWidget
 > 	user-id="5RgbbnW5uDZV0sofyNe3NWws1qs1"
 > 	trip-name="Wish To Go Trip to Thailand"
-> 	icon-url="/static-images/blogger.png">
+> 	icon-url="/images/blogger.png">
 > </ShareTripWidget>
 
 ### ShareTripWidget attributes

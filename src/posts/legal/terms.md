@@ -62,4 +62,4 @@ By continuing to access or use our Service after those revisions become effectiv
 
 ## Contact Us
 
-If you have any questions about these Terms, please [contact us](/legal/terms).
+If you have any questions about these Terms, please [contact us](/contact/).

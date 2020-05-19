@@ -58,7 +58,7 @@ Your readers can click on the hearts ❤️ shown by the plugin to **Bookmark yo
 
 Attracting readers to your blog is a huge effort just for a unique visit. When your readers bookmark a destination in your post they will come back to your blog to check their destination wish lists.
 
-Learn why a [Travel Bucket List can Improve Visitor Engagement→](../travel-blogging/destination-wish-list-for-your-travel-blog/)
+Learn [**Why a Travel Bucket List can Improve Visitor Engagement→**](../travel-blogging/destination-wish-list-for-your-travel-blog/)
 
 </div>
 
@@ -91,7 +91,7 @@ The plugin let your readers plan a trip based on the destinations stored in the 
 
 When your readers are ready to travel, they will book from the **Travel Planner** with your travel affiliate links. Being relevant in affiliate marketing is the doorway to success. 
 
-Learn more about [Travel Affiliate Marketing Optimization→](../travel-blogging/how-to-improve-affiliate-marketing/)
+Learn more about [**Travel Affiliate Marketing Optimization→**](../travel-blogging/how-to-improve-affiliate-marketing/)
 
 </div>
 

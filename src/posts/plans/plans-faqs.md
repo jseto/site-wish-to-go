@@ -10,7 +10,7 @@ status: no public
 
 ### How does the Backpacker free plan works?
 
-The **Backpacker** plan is a complete standalone plugin. Just install it in your blog and you can start to use. Anyway, we recommend that you [register with us](/plans/subscription/backpacker/) to get notified about the readers that register in your blog. To use the [_ShareTripWidget_](/how-to-use/#the-sharetripwidget-tag/) you have to register with us to create your shared itinerary.
+The **Backpacker** plan is a complete standalone plugin. Just install it in your blog and you can start to use. Anyway, we recommend that you [register with us](/plans/subscription/backpacker/) to get notified about the readers that register in your blog. To use the [_ShareTripWidget_](/plugin-documentation/#the-sharetripwidget-tag) you have to register with us to create your shared itinerary.
 
 ### Can I subscribe for 1 year in advance?
 
