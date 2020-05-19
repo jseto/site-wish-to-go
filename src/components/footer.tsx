@@ -58,7 +58,7 @@ export const Footer = () => {
               marginLeft: 0, marginRight: 0
             }}>
               <div className="column is-4">
-                <section className="menu">
+                <section>
                   <ul className="menu-list">
                     <ShowMenuItems items={ footer.firstColumnItems } />
                   </ul>
