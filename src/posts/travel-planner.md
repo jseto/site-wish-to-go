@@ -25,7 +25,7 @@ build up your next trip with the **Trip Planer** below.
 If your preferred favourite travel blog does not have the ***Wish to go*** heart
 in its blog entries, we recommend you to ask the blog owner to implement 
 ***Wish to go*** in his/her blog. Meanwhile, you can check how the **Trip Planner** works by
-browsing our [travel blog demo](/blog).
+browsing our [travel blog demo](/travel/).
 
 </div>
 

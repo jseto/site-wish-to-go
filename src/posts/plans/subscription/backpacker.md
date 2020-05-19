@@ -6,6 +6,8 @@ description: Subscribe to Wish To Go Backpacker plan.
 
 # Subscribe to Backpacker Free Plan
 
+## Free Forever
+
 <Columns>
 
 import { Subscribe } from "../../../custom-components/subscribe"
@@ -14,9 +16,12 @@ import { Subscribe } from "../../../custom-components/subscribe"
 
 <div>
 
+##### [Compare to other plans](/plans/)
+
 ## Need help?
 
 We provide 30 days of free e-mail support to every new customer in all subscription plans. If you still have questions, please feel free to [contact us.](/contact/)
+
 
 ## Start engaging with your audience
 

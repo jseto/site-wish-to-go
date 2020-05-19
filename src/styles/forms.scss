@@ -1,0 +1,19 @@
+.content .page form.form {
+	background-color: $soft-blue;
+	padding: 1.5em;
+	border-radius: 5px;
+
+	&.narrow {
+		max-width: $tablet;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 0.5em;
+	}
+
+	&.center {
+		margin-left: auto;
+	  margin-right: auto;
+	}
+}

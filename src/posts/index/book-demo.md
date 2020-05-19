@@ -16,3 +16,5 @@ Book a free _demo_ on how to use and install the **Wish To Go** travel plugin. Y
 > During the COVID-19 travel ban period, we are giving **free installation support** even for the Backpacker Free Plan. Be ready for when we can travel again.
 
 [Book a Demo Now](/contact/)
+
+[Get it for Free](/plans/subscription/backpacker/)

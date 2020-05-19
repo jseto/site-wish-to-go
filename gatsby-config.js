@@ -22,10 +22,10 @@ module.exports = {
       className: 'is-dark',
       menuItems: [
         { content: 'Home', href: '/' },
-        { content: 'How to use', href: '/how-to-use/' },
         { content: 'Plans', href: '/plans/' },
         { content: 'Blog Demo', href: '/travel/' },
         { content: 'Travel Planner', href: '/travel-planner/' },
+        { content: 'Plugin Documentation', href: '/plugin-documentation/' },
         { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ]
     },
@@ -38,10 +38,10 @@ module.exports = {
       className: 'has-background-dark',
       firstColumnItems: [
         { content: 'Home', href: '/' },
-        { content: 'How to use', href: '/how-to-use/' },
         { content: 'Plans', href: '/plans/' },
         { content: 'Blog Demo', href: '/travel/' },
         { content: 'Travel Planner', href: '/travel-planner/' },
+        { content: 'Plugin Documentation', href: '/plugin-documentation/' },
         { content: 'Wordpress Plugin', href: 'https://wordpress.org/plugins/wish-to-go/' },
       ],
       secondColumnItems: [

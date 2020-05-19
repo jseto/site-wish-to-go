@@ -16,7 +16,7 @@ className: blog-page
 
 San Sebastian is considered one of the most charming cities in Spain and one of the most beautiful in Europe. The three beaches in the city centre make it a special place to visit. Although the best time of year to visit is undoubtedly summer, you can enjoy San Sebastian at any time. It is a perfect city to visit on a weekend or on a long bridge.
 
-All the main things to visit in the city are just a few kilometres away as we can see at www.sansebastian.travel and it is very easy to get around on foot, although it is very important to have booked a hotel that is well located to save time on the way.
+All the main things to visit in the city are just a few kilometres away as we can see and it is very easy to get around on foot, although it is very important to have booked a hotel that is well located to save time on the way.
 
 ## Things to Do
 

@@ -1,7 +1,7 @@
 ---
 title: A destination wish list for your travel blog
 category: main
-className: page
+className: page contact
 ---
 
 # Contact Form

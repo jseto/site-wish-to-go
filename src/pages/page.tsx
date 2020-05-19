@@ -11,6 +11,7 @@ import { WishWidget, ShareTripWidget, TravelPlanWidget, WishCounterWidget } from
 import { StartWishToGo } from "../wish-to-go-plugin/start-wish-to-go"
 import { CustomCategoryEntries } from "../custom-components/custom-category-entries"
 import { Columns } from "../components/columns"
+import { PopupForm } from "../custom-components/popup-form"
 
 interface PageProps {
   data: PageQuery
@@ -37,7 +38,7 @@ class Page extends React.Component<PageProps> {
           components={{
             CategoryEntries, ImportMarkdown, Columns,
             WishWidget, TravelPlanWidget, WishCounterWidget, ShareTripWidget, StartWishToGo,
-            CustomCategoryEntries
+            CustomCategoryEntries, PopupForm
           }}
         >
 
@@ -102,6 +103,6 @@ query Page( $id: String ) {
 // blog-page
 // blog-entry-card
 // blog-main
-// plans plans-grid plans-faqs plan-card backpacker explorer globetrotter
+// plans plans-grid plan-entries plans-faqs plan-card backpacker explorer globetrotter
 // subscription subscribe social-sign-up
 // share-trip-widget wish-counter-widget trip-planner login-provider-buttons view-panel controller-container
