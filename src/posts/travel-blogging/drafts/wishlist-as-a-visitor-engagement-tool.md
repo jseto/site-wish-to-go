@@ -33,7 +33,7 @@ For merchants, they provide a great opportunity to attract more buyers and know 
 
 ## Why are Wish List Important in Travel Blog
 
-Regardless you are monetizing your site, wish lists improve visitors experience by giving them an added value. This enhancement can be complemented with a [Travel Planning](/trip-planner) tool. Your audience will appreciate that your blog is giving a new feature that other travel sites don't have.
+Regardless you are monetizing your site, wish lists improve visitors experience by giving them an added value. This enhancement can be complemented with a [Travel Planning](/travel-planner) tool. Your audience will appreciate that your blog is giving a new feature that other travel sites don't have.
 
 A Wish List in your website not only is major benefit for your readers, but a tool you can use to boost traffic and increase present or future monetization.
 
